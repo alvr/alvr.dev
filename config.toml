@@ -1,0 +1,46 @@
+baseurl = "http://alvr.me"
+DefaultContentLanguage = "en"
+title = "me, alvr"
+theme = "beautifulhugo"
+metaDataFormat = "toml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+disqusShortname = "alvr"
+googleAnalytics = "UA-37621780-1"
+
+[taxonomies]
+  tag = "tags"
+
+[Params]
+  subtitle = "Random things by a random human."
+  logo = "img/logo.png"
+  favicon = "img/logo.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  #gcse = "009995410285976540412:vistk49srvs"
+
+[Author]
+  name = "Álvaro S."
+  email = "alvaro@alvr.me"
+  googleplus = "112762977194362652600"
+  github = "alvr"
+  gitlab = "alvr"
+  twitter = "alvrSG"
+  steam = "Alvaro_SG"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Proyectos"
+    url = "proyectos/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contactar"
+    url = "contactar/"
+    weight = 3

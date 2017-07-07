@@ -1,0 +1,16 @@
+dependencies:
+  pre:
+    - pip install Pygments
+    - chmod +x ./deps.sh
+    - chmod +x ./push.sh
+    - ./deps.sh
+
+test:
+  override:
+    - hugo
+
+deployment:
+  release:
+    branch: master
+    commands:
+      - ./push.sh
