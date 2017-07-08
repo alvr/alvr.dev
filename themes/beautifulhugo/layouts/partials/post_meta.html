@@ -1,5 +1,5 @@
 <span class="post-meta">
-  {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format | i18n "postedOnDate" }}
+  {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format | i18n "postedOnDate" }} &nbsp;&bull;&nbsp; {{ .ReadingTime }} {{ i18n "readingTime" }} &nbsp;&bull;&nbsp; {{ .WordCount }} {{ i18n "words" }}
   {{ if .IsTranslated -}}
     {{- $sortedTranslations := sort .Translations "Site.Language.Weight" -}}
     {{- $links := apply $sortedTranslations "partial" "translation_link.html" "." -}}
