@@ -1,6 +1,7 @@
 #!/bin/bash
 cd ./public
 
+echo alvr.me > CNAME
 git init
 git config user.name "Álvaro S"
 git config user.email "alvaro.sg93@gmail.com"
