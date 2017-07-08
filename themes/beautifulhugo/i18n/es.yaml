@@ -1,26 +1,30 @@
 # Content
 - id: dateFormat
-  translation: "January 2, 2006"
+  translation: "02/01/2006"
 - id: postedOnDate
-  translation: "Posted on {{ .Count }}"
+  translation: "Publicada el {{ .Count }}"
 - id: translationsLabel
-  translation: "Other languages: "
+  translation: "Otros idiomas: "
 - id: translationsSeparator
   translation: ", "
 - id: readMore
   translation: "Leer más"
 - id: olderPosts
-  translation: "Older Posts"
+  translation: "Entradas antiguas"
 - id: newerPosts
-  translation: "Newer Posts"
+  translation: "Entradas recientes"
 - id: previousPost
-  translation: "Previous Post"
+  translation: "Entrada anterior"
 - id: nextPost
-  translation: "Next Post"
+  translation: "Entrada siguiente"
+- id: readingTime
+  translation: "minutos"
+- id: words
+  translation: "palabras"
 
 # 404 page
 - id: pageNotFound
-  translation: "Whoops, this page doesn't exist. Move along. (404 error)"
+  translation: "Oops, esta página no existe. (Error 404)"
 
 # Footer
 - id: poweredBy # Accepts HTML
@@ -30,11 +34,11 @@
 - id: toggleNavigation
   translation: "Toggle navigation"
 - id: languageSwitcherLabel
-  translation: "Lenguaje"
+  translation: "Idioma"
 - id: gcseLabelShort
   translation: "Buscar"
 - id: gcseLabelLong
-  translation: "Buscar {{ .Site.Title }}"
+  translation: "Buscar en {{ .Site.Title }}"
 - id: gcseClose
   translation: "Cerrar"
 

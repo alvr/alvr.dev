@@ -1,5 +1,5 @@
 baseurl = "https://alvr.me"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "es"
 title = "me, alvr"
 theme = "beautifulhugo"
 metaDataFormat = "toml"
@@ -15,8 +15,8 @@ googleAnalytics = "UA-37621780-1"
   subtitle = "Random things by a random human."
   logo = "img/logo.png"
   favicon = "img/logo.png"
-  dateFormat = "January 2, 2006"
   commit = false
+  dateFormat = "02/01/2006"
   rss = true
   comments = true
   gcse = "009995410285976540412:vistk49srvs"
