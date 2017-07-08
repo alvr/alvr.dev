@@ -19,7 +19,7 @@ googleAnalytics = "UA-37621780-1"
   commit = false
   rss = true
   comments = true
-  #gcse = "009995410285976540412:vistk49srvs"
+  gcse = "009995410285976540412:vistk49srvs"
 
 [Author]
   name = "Álvaro S."

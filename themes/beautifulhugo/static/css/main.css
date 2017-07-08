@@ -712,3 +712,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 a.no-underline:hover {
   text-decoration: none;
 }
+
+.btn-close {
+  font-family: 'Open Sans' !important;
+}
