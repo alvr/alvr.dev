@@ -44,3 +44,8 @@ googleAnalytics = "UA-37621780-1"
     name = "Contactar"
     url = "contactar/"
     weight = 3
+
+[[menu.main]]
+    name = "Etiquetas"
+    url = "tags/"
+    weight = 4
