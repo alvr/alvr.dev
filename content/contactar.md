@@ -3,7 +3,7 @@ title: "Contactar"
 comments: false
 type: page
 ---
-<form class="pure-form" method="POST" action="http://formspree.io/alvaro@alvr.me">
+<form class="pure-form" method="POST" action="https://formspree.io/alvaro@alvr.me">
     <fieldset class="pure-group">
         <input type="text" name="name" class="pure-input-1" placeholder="Name" required>
         <input type="email" name="email" class="pure-input-1" placeholder="Email" required>
