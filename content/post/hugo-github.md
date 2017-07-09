@@ -5,6 +5,8 @@ tags: [ "hugo", "github", "github pages", "CD" ]
 ---
 He utilizado a lo largo de este blog WordPress, Grav y ahora Hugo. A diferencia de WordPress y Grav, [Hugo](https://gohugo.io) es un generador de páginas web estático no hace falta un servidor con PHP, Ruby, Python... Solo descargar un ejecutable en el ordenador y listo.
 
+<!--more-->
+
 No voy a comentar el funcionamiento, por lo que si quieres conocerlo en [este enlace](https://gohugo.io/overview/quickstart/) tiene lo necesario.
 
 # Requisitos
