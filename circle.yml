@@ -3,8 +3,6 @@ dependencies:
     - pip install Pygments
     - chmod +x ./deps.sh ./push.sh
     - ./deps.sh
-    - GIT_COMMIT_SHA=${CIRCLE_SHA1}
-    - GIT_COMMIT_SHA_SHORT=$(echo ${CIRCLE_SHA1} | cut -c1-7)
 
 test:
   override:

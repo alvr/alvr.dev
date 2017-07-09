@@ -716,3 +716,8 @@ a.no-underline:hover {
 .btn-close {
   font-family: 'Open Sans' !important;
 }
+
+.btn-send {
+  font-family: 'Open Sans' !important;
+  width: 100%;
+}
