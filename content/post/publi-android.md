@@ -10,11 +10,13 @@ En este tutorial os voy a enseñar cómo añadir publicidad a vuestras aplicacio
 
 Lo primero será registrar la aplicación en la [página de AdMob](https://apps.admob.com/). Si ya tenías una cuenta antigua puedes importar los datos, sino añade una nueva aplicación. Si ya tienes publicada la aplicación en la Play Store tan solo tienes que buscarla y se añadirá automática. En el caso contrario la tendrás que añadir manualmente.
 
-{{< figure link="/media/publi-android/panel.png" title="Aplicaciones en AdMob" >}}  
+{{< figure link="/media/publi-android/panel.png" title="Aplicaciones en AdMob" >}}
 
 Cuando la hayamos creado pasamos a nuestro proyecto en Android Studio y abrimos el archivo `build.gradle`. Dentro nos vamos al apartado `dependencies` y agregamos la siguiente línea a las que ya están:
 
-`compile 'com.google.android.gms:play-services:11.0.0'`
+{{< highlight groovy >}}
+compile 'com.google.android.gms:play-services:11.0.0'
+{{</ highlight >}}
 
 Quedando tal que así:
 
@@ -143,8 +145,8 @@ public class Actividad extends AppCompatActivity {
 
     @Override
     public void onPause() {
-    	super.onPause();
-        adView.pause();        
+        super.onPause();
+        adView.pause();
     }
 
     @Override
@@ -155,8 +157,8 @@ public class Actividad extends AppCompatActivity {
 
     @Override
     public void onDestroy() {
-    	super.onDestroy();
-        adView.destroy();        
+        super.onDestroy();
+        adView.destroy();
     }
 }
 {{</ highlight >}}
