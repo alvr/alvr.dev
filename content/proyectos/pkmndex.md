@@ -2,6 +2,7 @@
 title: "PkmnDex"
 subtitle: "Pokédex para Android."
 date: 2015-07-20T13:44:00+02:00
+type: page
 tags: [ "Pokémon", "Pokédex", "PkmnDex" ]
 categories: [ "Android" ]
 ---

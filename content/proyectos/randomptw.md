@@ -2,7 +2,9 @@
 title: "RandomPTW"
 subtitle: "Anime aleatorio"
 date: 2016-09-05T18:00:00+02:00
+type: page
 tags: [ "anime", "myanimelist", "random" ]
+categories: [ "PHP" ]
 ---
 Si tienes una gran lista de animes pendientes y no te decides por uno, ¿por qué no dejas que un trozo de código seleccione uno aleatorio?
 

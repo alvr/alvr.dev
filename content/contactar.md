@@ -1,6 +1,7 @@
 ---
 title: "Contactar"
 comments: false
+type: page
 ---
 <form class="pure-form" method="POST" action="http://formspree.io/alvaro@alvr.me">
     <fieldset class="pure-group">
@@ -16,5 +17,5 @@ comments: false
     <input type="hidden" name="_next" value="/" />
     <input type="hidden" name="_language" value="es" />
 	<input type="text" name="_gotcha" style="display:none" />
-    <button type="submit" class="btn btn-default">Send</button>
+    <button type="submit" class="btn btn-default btn-send">Send</button>
 </form>
