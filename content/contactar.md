@@ -16,5 +16,5 @@ comments: false
     <input type="hidden" name="_next" value="/" />
     <input type="hidden" name="_language" value="es" />
 	<input type="text" name="_gotcha" style="display:none" />
-    <button type="submit" class="pure-button pure-input-1 pure-button-primary">Send</button>
+    <button type="submit" class="btn btn-default">Send</button>
 </form>
