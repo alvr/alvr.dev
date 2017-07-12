@@ -1,7 +1,7 @@
 ---
 title: "Hugo + CD + Github Pages"
 date: 2017-07-07T18:17:00+02:00
-tags: [ "hugo", "github", "github pages", "CD" ]
+tags: [ "hugo", "github", "github pages", "cd", "continuous deployment", "deployment" ]
 ---
 He utilizado a lo largo de este blog WordPress, Grav y ahora Hugo. A diferencia de WordPress y Grav, [Hugo](https://gohugo.io) es un generador de páginas web estático no hace falta un servidor con PHP, Ruby, Python... Solo descargar un ejecutable en el ordenador y listo.
 
@@ -23,7 +23,7 @@ Empezaremos instalando las dependencias necesarias. Solamente es descargar el ej
 
 {{< highlight bash >}}
 #!/bin/bash
-HUGO_VERSION=0.25
+HUGO_VERSION=0.25.1
 
 set -e
 
