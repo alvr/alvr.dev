@@ -32,8 +32,9 @@
               </div>
 
               {{ if .Params.tags }}
+              {{ $tags := sort .Params.tags }}
                 <span class="post-meta">
-                {{ range .Params.tags }}
+                {{ range $tags }}
                   #<a href="{{ $.Site.LanguagePrefix }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
                 {{ end }}
                 </span>
