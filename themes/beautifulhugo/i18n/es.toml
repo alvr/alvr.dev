@@ -1,0 +1,38 @@
+[dateFormat]
+other = "02/01/2006"
+[postedOnDate]
+other = "Publicada el {{ .Count }}"
+[translationsLabel]
+other = "Otros idiomas: "
+[translationsSeparator]
+other = ", "
+[readMore]
+other = "Leer más"
+[olderPosts]
+other = "Entradas antiguas"
+[newerPosts]
+other = "Entradas recientes"
+[previousPost]
+other = "Entrada anterior"
+[nextPost]
+other = "Entrada siguiente"
+[readingTime]
+one = "1 minuto"
+other = "{{ .Count }} minutos"
+[words]
+one = "1 palabra"
+other = "{{ .Count }} palabras"
+[pageNotFound]
+other = "Oops, esta página no existe. (Error 404)"
+[poweredBy]
+other = '<a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+[toggleNavigation]
+other = "Toggle navigation"
+[languageSwitcherLabel]
+other = "Idioma"
+[gcseLabelShort]
+other = "Buscar"
+[gcseLabelLong]
+other = "Buscar en {{ .Site.Title }}"
+[gcseClose]
+other = "Cerrar"
