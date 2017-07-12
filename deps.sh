@@ -1,5 +1,5 @@
 #!/bin/bash
-HUGO_VERSION=0.25
+HUGO_VERSION=0.25.1
 
 set -e
 
