@@ -29,6 +29,12 @@ title = "GitLab"
 icon = "fa-gitlab"
 
 [[social_icons]]
+id = "bitbucket"
+url = "https://bitbucket.org/%s"
+title = "Bitbucket"
+icon = "fa-bitbucket"
+
+[[social_icons]]
 id = "twitter"
 url = "https://twitter.com/%s"
 title = "Twitter"
@@ -107,7 +113,25 @@ title = "Keybase"
 icon = "fa-key"
 
 [[social_icons]]
-id = "steam"
-url = "https://steamcommunity.com/id/%s/"
-title = "Steam"
-icon = "fa-steam"
+id = "vk"
+url = "https://vk.com/%s"
+title = "VK"
+icon = "fa-vk"
+
+[[social_icons]]
+id = "paypal"
+url = "https://paypal.me/%s"
+title = "PayPal"
+icon = "fa-paypal"
+
+[[social_icons]]
+id = "telegram"
+url = "https://telegram.me/%s"
+title = "Telegram"
+icon = "fa-telegram"
+
+[[social_icons]]
+id = "500px"
+url = "https://500px.com/%s"
+title = "500px"
+icon = "fa-500px"

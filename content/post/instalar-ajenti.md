@@ -23,12 +23,12 @@ Para poder instalar Ajenti se necesita uno de estos sistemas operativos:
 ## Instalación en Debian
 
 Se puede instalar con una sola línea:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget -O- https://raw.github.com/ajenti/ajenti/1.x/scripts/install-debian.sh | sh
 {{</ highlight >}}
 
 O bien manualmente:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget http://repo.ajenti.org/debian/key -O- | apt-key add -
 echo "deb http://repo.ajenti.org/debian main main debian" >> /etc/apt/sources.list.d/ajenti.list
 apt-get update && apt-get install ajenti
@@ -38,12 +38,12 @@ service ajenti restart
 ## Instalación en Ubuntu
 
 Se puede instalar con una sola línea:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget -O- https://raw.github.com/ajenti/ajenti/1.x/scripts/install-ubuntu.sh | sudo sh
 {{</ highlight >}}
 
 O bien manualmente:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget http://repo.ajenti.org/debian/key -O- | apt-key add -
 echo "deb http://repo.ajenti.org/ng/debian main main ubuntu" >> /etc/apt/sources.list.d/ajenti.list
 sudo apt-get update && sudo apt-get install ajenti
@@ -54,13 +54,13 @@ sudo service ajenti restart
 
 Se puede instalar con una sola línea:
 Si se usa CentOS 6/RHEL6:
-{{< highlight bash >}}curl https://raw.githubusercontent.com/ajenti/ajenti/1.x/scripts/install-rhel.sh | sh{{</ highlight >}}
+{{< highlight shell >}}curl https://raw.githubusercontent.com/ajenti/ajenti/1.x/scripts/install-rhel.sh | sh{{</ highlight >}}
 
 Si se usa CentOS 7/RHEL7:
-{{< highlight bash >}}curl https://raw.githubusercontent.com/ajenti/ajenti/1.x/scripts/install-rhel7.sh | sh{{</ highlight >}}
+{{< highlight shell >}}curl https://raw.githubusercontent.com/ajenti/ajenti/1.x/scripts/install-rhel7.sh | sh{{</ highlight >}}
 
 O bien manualmente:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget http://repo.ajenti.org/ajenti-repo-1.0-1.noarch.rpm
 rpm -i ajenti-repo-1.0-1.noarch.rpm
 yum install ajenti
@@ -70,12 +70,12 @@ service ajenti restart
 ## Instalación en Raspbian
 
 Se puede instalar con una sola línea:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget -O- https://raw.github.com/ajenti/ajenti/1.x/scripts/install-raspbian.sh | sh
 {{</ highlight >}}
 
 O bien manualmente:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget http://repo.ajenti.org/debian/key -O- | apt-key add -
 echo "deb http://repo.ajenti.org/debian main main debian" >> /etc/apt/sources.list.d/ajenti.list
 apt-get update
@@ -93,7 +93,7 @@ service ajenti restart
 ## Instalación en FreeBSD
 
 Prerequisitos:
-{{< highlight bash >}}
+{{< highlight shell >}}
 cd /usr/ports/devel/py-gevent;  make install clean;
 cd /usr/ports/devel/py-lxml;    make install clean;
 cd /usr/ports/devel/py-pip;     make install clean;
@@ -102,12 +102,12 @@ cd /usr/ports/devel/libffi;     make install clean;
 {{</ highlight >}}
 
 Instalar con:
-{{< highlight bash >}}
+{{< highlight shell >}}
 pip install ajenti
 {{</ highlight >}}
 
 Instalar script rc.d:
-{{< highlight bash >}}
+{{< highlight shell >}}
 wget https://raw.github.com/ajenti/ajenti/1.x/packaging/files/ajenti-bsd -O /etc/rc.d/ajenti
 {{</ highlight >}}
 
@@ -120,7 +120,7 @@ En la pantalla principal nos aparecerá el sistema operativo, así como su versi
 ## Autenticación
 
 Lo primero que vamos a hacer va a ser cambiar la autenticación. Nos dirigimos a **Password** para cambiar la contraseña del administrador, porque sino el servidor sería muy vulnerable. Una vez hecho eso podemos seguir utilizando la cuenta **root** o bien utilizar una cuenta del propio sistema. Lo malo de esto último es que si alguien sabe de algún modo u otro la contraseña del usuario, podría tener acceso por SSH al servidor. Por eso se puede crear un usuario sin acceso SSH con el siguiente comando:
-{{< highlight bash >}}
+{{< highlight shell >}}
 useradd -s /usr/sbin/nologin <usuario>
 {{</ highlight >}}
 
@@ -136,7 +136,7 @@ Es el servidor DNS que se suele utilizar y el que viene por defecto en la mayor�
 *   **Zone**: Podemos utilizar la [siguiente web](http://pgl.yoyo.org/as/bind-zone-file-creator.php) para generar el contenido del fichero.
 
 Después de guardar, reiniciamos _bind_:
-{{< highlight bash >}}
+{{< highlight shell >}}
 service bind9 restart
 {{</ highlight >}}
 

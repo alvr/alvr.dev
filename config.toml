@@ -2,9 +2,10 @@ baseurl = "https://alvr.me"
 DefaultContentLanguage = "es"
 title = "me, alvr"
 theme = "beautifulhugo"
-metaDataFormat = "toml"
+metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 disqusShortname = "alvr"
 googleAnalytics = "UA-37621780-1"
 
@@ -14,17 +15,23 @@ googleAnalytics = "UA-37621780-1"
 [Params]
   subtitle = "Random things by a random human."
   logo = "img/logo.png"
-  favicon = "img/logo.png"
+  favicon = "img/favicon.ico"
   dateFormat = "02/01/2006"
-  commit = "https://github.com/alvr/alvr.github.io-hugo/commit/"
+  commit = "https://github.com/alvr/alvr.github.io/commit/"
   rss = true
   comments = true
+  readingTime = true
+  useHLJS = false
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
   gcse = "009995410285976540412:vistk49srvs"
+  since = 2013
+
 
 [Author]
   name = "Álvaro S."
   email = "alvaro@alvr.me"
-  googleplus = "112762977194362652600"
   github = "alvr"
   gitlab = "alvr"
   twitter = "alvrSG"
