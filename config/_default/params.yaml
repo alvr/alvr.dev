@@ -1,0 +1,138 @@
+logoText: me, alvr
+logoType: short
+description: Random things by a random human.
+custom_css: []
+custom_js: []
+useFaviconGenerator: true
+meta_image: ../images/avatar.png
+
+themecolor: dark
+themeOptions:
+  - dark
+
+notAllowedTypesInHome:
+  - contact
+  - talks
+  - about
+  - showcase
+  - page
+  - publication
+  - presentation
+  - resume
+notAllowedTypesInHomeSidebar:
+  - about
+  - archive
+  - showcase
+  - publication
+  - presentation
+  - resume
+notAllowedTypesInArchive:
+  - about
+  - contact
+  - talks
+  - showcase
+  - publication
+  - presentation
+  - resume
+notAllowedTypesInHomeFeed:
+  - about
+  - archive
+  - contact
+  - talks
+  - showcase
+  - publication
+  - presentation
+  - resume
+  - gallery
+
+viewportSize: wide
+enableUiAnimation: false
+hideSingleContentsWhenJSDisabled: false
+enablePinnedPosts: true
+minItemsToShowInTagCloud: 1
+
+enableAppbarSearchIcon: false
+enableAppbarLangIcon: true
+
+homeHeaderType: text
+hideHomeHeaderWhenMobile: false
+
+showMobileMenuTerms:
+  - tags
+  - categories
+  - series
+
+enableBreadcrumb: true
+enablePhotoSwipe: true
+enableSearch: true
+enableSearchHighlight: true
+enableGoToTop: true
+enableWhoami: false
+
+summaryShape: classic
+searchResultPosition: main
+archiveGroupByDate: '2006'
+archivePaginate: 13
+paginateWindow: 1
+talksPaginate: 5
+talksGroupByDate: '2006'
+pubPaginate: 20
+
+myname: Álvaro Salcedo García
+bioImageUrl: ../images/avatar.png
+
+enableBio: true
+enableBioImage: true
+enableSidebar: true
+enableSidebarTags: true
+enableSidebarSeries: true
+enableSidebarCategories: true
+enableHomeSidebarTitles: false
+enableListSidebarTitles: false
+enableToc: true
+hideToc: false
+tocFolding: true
+tocPosition: outer
+enableTocSwitch: false
+itemsPerCategory: 5
+sidebarPosition: right
+tocLevels:
+  - h1
+  - h2
+  - h3
+  - h4
+enableSidebarPostsByOrder: false
+
+showPoweredBy: false
+showFeedLinks: true
+showSocialLinks: true
+enableLangChange: false
+enableThemeChange: false
+
+googleTagManager: GTM-T67JSC2
+
+updatePeriod: weekly
+updateFrequency: 2
+fullContents: false
+
+enableComment: true
+utterances:
+  owner: alvr
+  repo: me
+
+socialOptions:
+  email: mailto:alvaro@alvr.me
+  twitter: https://twitter.com/alvrSG
+  github: https://github.com/alvr
+  linkedin: https://linkedin.com/in/alvr
+  gitlab: https://gitlab.com/alvr
+
+donationOptions:
+  enable: true
+  paypal: https://paypal.me/alvaro
+
+share:
+  - name: facebook
+  - name: twitter
+    username: alvrSG
+  - name: linkedin

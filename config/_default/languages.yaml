@@ -1,0 +1,15 @@
+es:
+  whoami: Desarrollador Android
+
+  languageName: Español
+  weight: 1
+  languagedir: ltr
+  contentdir: content/es
+
+en:
+  whoami: Android Developer
+
+  languageName: English
+  weight: 2
+  languagedir: ltr
+  contentdir: content/en

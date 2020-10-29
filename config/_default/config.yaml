@@ -1,0 +1,65 @@
+baseURL: https://alvr.me
+title: me, alvr
+theme: zzo
+
+defaultContentLanguage: es
+
+summaryLength: 70
+buildFuture: true
+copyright: © 2013 — 2020 Álvaro Salcedo García | <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>
+timeout: 10000
+enableEmoji: true
+paginate: 10
+rssLimit: 100
+enableGitInfo: true
+googleAnalytics: UA-37621780-1
+
+permalinks:
+  posts: /post/:slug
+  tags: /tag/:slug
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xHTML: true
+  highlight:
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - SearchIndex
+  section:
+    - HTML
+    - RSS
+    - SearchIndex
+  taxonomyTerm:
+    - HTML
+    - RSS
+    - SearchIndex
+  taxonomy:
+    - HTML
+    - RSS
+    - SearchIndex
+
+outputFormats:
+  SearchIndex:
+    mediaType: application/json
+    baseName: index
+    isPlainText: true
+    notAlternative: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
