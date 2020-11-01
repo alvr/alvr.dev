@@ -23,3 +23,22 @@ main:
     name: Contactar
     url: contactar/
     weight: 5
+
+  # Submenús
+  - identifier: android
+    parent: projects
+    name: Android
+    url: proyectos/android/
+    weight: 1
+
+  - identifier: docker
+    parent: projects
+    name: Docker
+    url: proyectos/docker/
+    weight: 2
+
+  - identifier: web
+    parent: projects
+    name: Web
+    url: proyectos/web/
+    weight: 3

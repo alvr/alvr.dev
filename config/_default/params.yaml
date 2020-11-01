@@ -116,9 +116,7 @@ updateFrequency: 2
 fullContents: false
 
 enableComment: true
-utterances:
-  owner: alvr
-  repo: me
+disqus_shortname: alvr
 
 socialOptions:
   email: mailto:alvaro@alvr.me
