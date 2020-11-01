@@ -1,6 +1,6 @@
 ---
 title: Cómo añadir publicidad a tu aplicación Android
-subtitle: Añade publicidad de AdMob a tu aplicación Android muy fácilmente.
+subtitle: Añade publicidad de AdMob a tu aplicación Android muy fácilmente
 description: Añade publicidad de AdMob a tu aplicación Android muy fácilmente.
 
 date: 2014-04-01T12:20:00+02:00
@@ -20,7 +20,6 @@ slug: publi-android
 Este tutorial es de **2014** y no es compatible con nuevas versiones del SDK de AdMob. Para una versión más actualizada, visita la [guía](https://developers.google.com/admob/android/quick-start?hl=es) de Google.
 {{< /notice >}}
 
-⠀
 En este tutorial os voy a enseñar cómo añadir publicidad a vuestras aplicaciones Android. El sistema que utilizaré será AdMob, ya que es el mejor en su categoría aunque también hay alternativas, como InMobi, MobFox...
 
 <!--more-->

@@ -1,6 +1,6 @@
 ---
 title: Instalar Ajenti
-subtitle: Aprende a instalar y configurar Ajenti, un panel de administración para manejar y controlar tu VPS.
+subtitle: Aprende a instalar y configurar Ajenti, un panel de administración para manejar y controlar tu VPS
 description: Aprende a instalar y configurar Ajenti, un panel de administración para manejar y controlar tu VPS.
 
 date: 2014-10-24T15:56:12+02:00
