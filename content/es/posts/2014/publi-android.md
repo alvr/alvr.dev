@@ -16,7 +16,7 @@ image: /images/posts/2014/admob/admob-logo.png
 translationKey: android-admob
 slug: publi-android
 ---
-{{< notice warning "Aviso de depreciación" >}}
+{{< notice warning "Deprecado" >}}
 Este tutorial es de **2014** y no es compatible con nuevas versiones del SDK de AdMob. Para una versión más actualizada, visita la [guía](https://developers.google.com/admob/android/quick-start?hl=es) de Google.
 {{< /notice >}}
 
