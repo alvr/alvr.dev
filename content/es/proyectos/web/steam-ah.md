@@ -12,11 +12,9 @@ tags:
   - logros
 
 translationKey: steam-ah
-type: page
-weight: 4
+type: showcase
 
 link: /proyectos/web/steam-ah/
-pinned: true
 ---
 {{< notice error "Deprecado" >}}
 La nueva interfaz de la biblioteca de Steam permite ordenar juego por porcentaje de logros desbloqueados, ideal para completar primero los juegos que menos logros falten.

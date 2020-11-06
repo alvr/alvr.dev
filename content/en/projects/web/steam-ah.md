@@ -12,11 +12,9 @@ tags:
   - logros
 
 translationKey: steam-ah
-type: page
-weight: 4
+type: showcase
 
 link: /en/projects/web/steam-ah/
-pinned: true
 ---
 {{< notice error "Deprecated" >}}
 The new Steam library interface allows you to sort games by percentage of unlocked achievements, ideal for completing the games with the least achievements first.
