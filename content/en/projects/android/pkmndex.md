@@ -10,16 +10,14 @@ tags:
   - pokédex
 
 translationKey: pkmndex
-type: page
-weight: 4
+type: showcase
 
 link: /en/projects/android/pkmndex/
-pinned: true
-
-image: /images/showcase/pkmndex/featured.png
 thumb: /showcase/pkmndex/thumb.png
 ---
-{{< featuredImage alt="PkmnDex banner" width=410 height=200 >}}
+{{< notice error "Unpublished" >}}
+PkmnDex is unpublished from Google Play Store and won't be available again.
+{{< /notice >}}
 
 PkmnDex was a lightweight application that linked Pokémon to the most popular wikis in several languages.
 It included all existing Pokémon up to the seventh generation and Mega Evolutions. You could see the sprite, name, number and types of each Pokémon with a simple search.
