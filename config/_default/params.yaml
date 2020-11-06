@@ -15,7 +15,6 @@ notAllowedTypesInHome:
   - talks
   - about
   - showcase
-  - page
   - publication
   - presentation
   - resume
@@ -30,7 +29,6 @@ notAllowedTypesInArchive:
   - about
   - contact
   - talks
-  - showcase
   - publication
   - presentation
   - resume

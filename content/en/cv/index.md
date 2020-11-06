@@ -53,7 +53,7 @@ items:
         startDate: 2017-03-17
         endDateText: present
         contents: |
-          Docker image based on Alpine Linux for testing and compiling Android applications. Thanks to Alpine you can get a lighter and less heavy image than Debian/Ubuntu based images. The base image in Alpine is 795MB, while in Debian/Ubuntu it is 1.1GB.
+          Docker image based on Alpine Linux for testing and compiling Android applications. Thanks to Alpine you can get a lighter and less heavy image than Debian/Ubuntu based images. The base image in Alpine is [781.16MB](https://hub.docker.com/layers/alvrme/alpine-android-base/latest/images/sha256:6c62ac3bc926a73a20426c019a33dd7433a441644c7601cbcb3cc987b2e57a77), while in Debian/Ubuntu it is 1.1GB. The final size of the latest Android 11 image is [1.24GB](https://hub.docker.com/layers/alvrme/alpine-android/latest/images/sha256:c517d2b93d348c4977d373b5d6ce2240e76319e700d55b068fec54515a1fe78c).
           
           There are several versions available: from Lollipop to Android 11.
           
