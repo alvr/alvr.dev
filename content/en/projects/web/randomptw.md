@@ -13,12 +13,10 @@ tags:
   - myanimelist
 
 translationKey: randomptw
-type: page
-weight: 3
+type: showcase
 
 link: /en/projects/web/randomptw/
 repo: https://github.com/alvr/randomptw
-pinned: true
 ---
 {{< notice error "Deprecated" >}}
 MyAnimeList no longer has the API that was used for this application and all queries will return *Invalid User*.
@@ -34,5 +32,5 @@ Anime that has not yet been broadcast is not taken into account, but sequels are
 
 It is written in PHP + jQuery. It uses the [DomCrawler](http://symfony.com/doc/current/components/dom_crawler.html) component from Symfony and the [Materialize](https://getmdl.io/) design. The design is responsible, so it fits the screen of mobile devices.
 
-{{< button href="https://randomptw.herokuapp.com/" color="primary">}}**Visit RandomPtW**{{</ button >}}
+{{< button href="https://randomptw.alvr.me/" color="primary">}}**Visit RandomPtW**{{</ button >}}
 {{< button href="https://github.com/alvr/RandomPtW" color="primary">}}**GitHub**{{</ button >}}
