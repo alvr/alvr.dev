@@ -89,7 +89,7 @@ enableHomeSidebarTitles: false
 enableListSidebarTitles: false
 enableToc: true
 hideToc: false
-tocFolding: true
+tocFolding: false
 tocPosition: outer
 enableTocSwitch: false
 itemsPerCategory: 5
