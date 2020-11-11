@@ -12,7 +12,7 @@ tags:
   - configurar ajenti
   - panel de control
 
-image: /images/posts/2014/ajenti/logo.png
+image: /images/posts/2014/ajenti/logo.webp
 translationKey: install-ajenti
 slug: instalar-ajenti
 ---
@@ -143,7 +143,7 @@ wget https://raw.github.com/ajenti/ajenti/1.x/packaging/files/ajenti-bsd -O /etc
 
 Una vez que hayamos instalado y accedido con el usuario **root** y contraseña **admin** se nos mostrará una pantalla parecida a esta:
 
-{{< img src="/images/posts/2014/ajenti/ajenti.png" caption="Página principal de Ajenti" width="768px" alt="Página principal de Ajenti" position="center" >}}
+{{< img src="/images/posts/2014/ajenti/ajenti.webp" caption="Página principal de Ajenti" width="768px" alt="Página principal de Ajenti" position="center" >}}
 
 En la pantalla principal nos aparecerá el sistema operativo, así como su versión y widgets que podremos usar para personalizar la pantalla según queramos. También un menú lateral con el que podemos acceder a todos los módulos disponibles.
 

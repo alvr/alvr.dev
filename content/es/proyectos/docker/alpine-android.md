@@ -21,8 +21,8 @@ type: showcase
 
 link: /proyectos/docker/alpine-android/
 repo: https://github.com/alvr/alpine-android
-image: /images/showcase/alpine-android/docker-android.png
-thumb: /showcase/alpine-android/docker-android.png
+image: /images/showcase/alpine-android/docker-android.webp
+thumb: /showcase/alpine-android/docker-android.webp
 
 shields:
 - name: Docker Pulls

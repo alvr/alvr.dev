@@ -10,13 +10,13 @@ tags:
   - hello world
   - welcome
 
-image: /images/posts/2013/hello-world/hw.png
+image: /images/posts/2013/hello-world/hw.webp
 translationKey: hello-world
 slug: hello-world
 ---
 What a better way to start the blog that with the first thing you do as a programmer.
 
-```kotlin
+```kotlin:main.kt
 fun main() {
   println("Hello World!")
 }

@@ -13,7 +13,7 @@ translationKey: pkmndex
 type: showcase
 
 link: /proyectos/android/pkmndex/
-thumb: /showcase/pkmndex/thumb.png
+thumb: /showcase/pkmndex/thumb.webp
 ---
 {{< notice error "Unpublished" >}}
 PkmnDex está despublicada de Google Play Store y no estará disponible otra vez.
@@ -38,15 +38,15 @@ Mantener toda la información actualizada sobre todos los Pokémon es una difíc
 
 ## Capturas
 
-{{< img src="/images/showcase/pkmndex/pkmndex_1.png" title="Vista" caption="Principal" alt="Principal" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_1.webp" title="Vista" caption="Principal" alt="Principal" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_2.png" title="Vista" caption="Mega evoluciones" alt="Mega evoluciones" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_2.webp" title="Vista" caption="Mega evoluciones" alt="Mega evoluciones" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_3.png" title="Vista" caption="Sitios disponibles" alt="Sitios disponibles" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_3.webp" title="Vista" caption="Sitios disponibles" alt="Sitios disponibles" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_4.png" title="Vista" caption="Serebii" alt="Serebii" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_4.webp" title="Vista" caption="Serebii" alt="Serebii" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_5.png" title="Vista" caption="Búsqueda" alt="Búsqueda" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_5.webp" title="Vista" caption="Búsqueda" alt="Búsqueda" width="240px" position="center" >}}
 
 ## Descargar
 

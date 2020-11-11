@@ -12,7 +12,7 @@ tags:
   - publicidad
   - publicidad android
 
-image: /images/posts/2014/admob/admob-logo.png
+image: /images/posts/2014/admob/admob-logo.webp
 translationKey: android-admob
 slug: publi-android
 ---
@@ -26,7 +26,7 @@ En este tutorial os voy a enseñar cómo añadir publicidad a vuestras aplicacio
 
 Lo primero será registrar la aplicación en la [página de AdMob](https://apps.admob.com/). Si ya tenías una cuenta antigua puedes importar los datos, sino añade una nueva aplicación. Si ya tienes publicada la aplicación en la Play Store tan solo tienes que buscarla y se añadirá automática. En el caso contrario la tendrás que añadir manualmente.
 
-{{< img src="/images/posts/2014/admob/panel.png" caption="Aplicaciones en AdMob" >}}
+{{< img src="/images/posts/2014/admob/panel.webp" caption="Aplicaciones en AdMob" >}}
 
 Cuando la hayamos creado pasamos a nuestro proyecto en Android Studio y abrimos el archivo `build.gradle`. Dentro nos vamos al apartado `dependencies` y agregamos la siguiente línea a las que ya están:
 

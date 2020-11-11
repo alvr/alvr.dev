@@ -16,7 +16,7 @@ tags:
   - despliegue continuo
   - integración continua
 
-image: /images/posts/2017/hugo-github/hugo-github.png
+image: /images/posts/2017/hugo-github/hugo-github.webp
 translationKey: hugo-github
 slug: hugo-github
 ---

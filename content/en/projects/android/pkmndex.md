@@ -13,7 +13,7 @@ translationKey: pkmndex
 type: showcase
 
 link: /en/projects/android/pkmndex/
-thumb: /showcase/pkmndex/thumb.png
+thumb: /showcase/pkmndex/thumb.webp
 ---
 {{< notice error "Unpublished" >}}
 PkmnDex is unpublished from Google Play Store and won't be available again.
@@ -38,15 +38,15 @@ Keeping all the information about all the Pokémon up-to-date is a difficult tas
 
 ## Screenshots
 
-{{< img src="/images/showcase/pkmndex/pkmndex_1.png" title="Screen" caption="Main" alt="Main" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_1.webp" title="Screen" caption="Main" alt="Main" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_2.png" title="Screen" caption="Mega evolutions" alt="Mega evolutions" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_2.webp" title="Screen" caption="Mega evolutions" alt="Mega evolutions" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_3.png" title="Screen" caption="Available sites" alt="Available sites" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_3.webp" title="Screen" caption="Available sites" alt="Available sites" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_4.png" title="Screen" caption="Serebii" alt="Serebii" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_4.webp" title="Screen" caption="Serebii" alt="Serebii" width="240px" position="center" >}}
 
-{{< img src="/images/showcase/pkmndex/pkmndex_5.png" title="Screen" caption="Search" alt="Search" width="240px" position="center" >}}
+{{< img src="/images/showcase/pkmndex/pkmndex_5.webp" title="Screen" caption="Search" alt="Search" width="240px" position="center" >}}
 
 ## Download
 
