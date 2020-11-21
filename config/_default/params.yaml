@@ -90,7 +90,7 @@ enableListSidebarTitles: false
 enableToc: true
 hideToc: false
 tocFolding: false
-tocPosition: outer
+tocPosition: inner
 enableTocSwitch: false
 itemsPerCategory: 5
 sidebarPosition: right

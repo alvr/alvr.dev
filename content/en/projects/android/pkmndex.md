@@ -13,6 +13,7 @@ translationKey: pkmndex
 type: showcase
 
 link: /en/projects/android/pkmndex/
+image: /images/showcase/pkmndex/thumb.webp
 thumb: /showcase/pkmndex/thumb.webp
 ---
 {{< notice error "Unpublished" >}}

@@ -13,9 +13,10 @@ translationKey: pkmndex
 type: showcase
 
 link: /proyectos/android/pkmndex/
+image: /images/showcase/pkmndex/thumb.webp
 thumb: /showcase/pkmndex/thumb.webp
 ---
-{{< notice error "Unpublished" >}}
+{{< notice error "Despublicada" >}}
 PkmnDex está despublicada de Google Play Store y no estará disponible otra vez.
 {{< /notice >}}
 
