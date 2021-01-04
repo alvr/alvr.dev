@@ -19,7 +19,7 @@ items:
         startDate: 2019-02-11
         endDateText: presente
         contents: | 
-          Actualmente trabajando principalmente en dos proyectos de Santander Deutschland realizando mantenimiento y evolutivos de ambas aplicaciones. De vez en cuando en proyectos de otros clientes. Respecto a las aplicaciones de Santander Deutschland:
+          Actualmente trabajando principalmente en dos proyectos de Santander Deutschland realizando mantenimiento y evolutivos de ambas aplicaciones. De vez en cuando en colaboro en otros proyectos que requieran asistencia adicional. Respecto a las aplicaciones de Santander Deutschland:
           
           * Mejoré la estabilidad de la aplicación aumentado el porcentaje de sesiones libre de fallos del 82% al 99.4% en dos meses.
           * Aumenté la cobertura de código de un 37% a un 81% realizando tests instrumentales y unitarios.
@@ -54,11 +54,11 @@ items:
         startDate: 2017-03-17
         endDateText: presente
         contents: |
-          Imagen de Docker basada en Alpine Linux para testear y compilar aplicaciones de Android. Gracias a Alpine se puede obtener una imagen liviana y menos pesada que imágenes basadas en Debian/Ubuntu. La imagen base en Alpine son [244.02MB](https://hub.docker.com/r/alvrme/alpine-android-base/tags), mientras que en Debian/Ubuntu son 1.1GB. El tamaño final de la última versión de Android 11 es [487.78MB](https://hub.docker.com/r/alvrme/alpine-android/tags).
+          Imagen de Docker basada en Alpine Linux para testear y compilar aplicaciones de Android. Gracias a Alpine se puede obtener una imagen liviana y menos pesada que imágenes basadas en Debian/Ubuntu. Las imágenes base en Alpine JDK8 y JDK11 son 244.43MB y 331.21MB respectivamente. El tamaño final de la última versión de Android 11 es 488.65MB para JDK8 y 575.42MB para JDK11, mientras que en Debian/Ubuntu pueden superar los 2GB.
           
           Hay varias versiones disponibles: desde Lollipop hasta Android 11.
           
-          Cuenta con 71.000+ descargas desde [Docker](https://hub.docker.com/r/alvrme/alpine-android/) y 100+ estrellas en [GitHub](https://github.com/alvr/alpine-android).
+          Cuenta con 100.000+ descargas desde [Docker](https://hub.docker.com/r/alvrme/alpine-android/) y 100+ estrellas en [GitHub](https://github.com/alvr/alpine-android).
 
       - title: Pressurizer
         titleLink: /proyectos/web/pressurizer/
