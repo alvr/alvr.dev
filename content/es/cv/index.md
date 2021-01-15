@@ -9,7 +9,7 @@ translationKey: cv
 header:
   infos:
     name: Álvaro Salcedo García
-    website: https://alvr.me/docs/cv.es.pdf
+    website: https://alvr.dev/docs/cv.es.pdf
 
 items:
   - title: Experiencia Laboral

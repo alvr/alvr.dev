@@ -1,12 +1,12 @@
-baseURL: https://alvr.me
-title: me, alvr
+baseURL: https://alvr.dev
+title: dev, alvr
 theme: zzo
 
 defaultContentLanguage: es
 
 summaryLength: 70
 buildFuture: true
-copyright: © 2013 — 2020 Álvaro Salcedo García | <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>
+copyright: © 2013 — {year} Álvaro Salcedo García | <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>
 timeout: 10000
 enableEmoji: true
 paginate: 10

@@ -32,5 +32,5 @@ Los animes que aún no se han emitido no se tienen en cuenta, pero sí las secue
 
 Está escrito en PHP + jQuery. Utiliza el componente [DomCrawler](http://symfony.com/doc/current/components/dom_crawler.html) de Symfony y el diseño [Materialize](https://getmdl.io/). El diseño es adaptable, por lo que ajusta a la pantalla de los dispositivos móviles.
 
-{{< button href="https://randomptw.alvr.me/" color="primary">}}**Visitar RandomPtW**{{</ button >}}
+{{< button href="https://randomptw.alvr.dev/" color="primary">}}**Visitar RandomPtW**{{</ button >}}
 {{< button href="https://github.com/alvr/RandomPtW" color="primary">}}**GitHub**{{</ button >}}

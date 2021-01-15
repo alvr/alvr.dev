@@ -1,5 +1,6 @@
-logoText: me, alvr
+logoText: dev, alvr
 logoType: short
+logo: false
 description: Random things by a random human.
 custom_css: []
 custom_js: []
@@ -107,7 +108,7 @@ showSocialLinks: true
 enableLangChange: false
 enableThemeChange: false
 
-googleTagManager: GTM-T67JSC2
+googleTagManager: GTM-WLC9NVG
 
 updatePeriod: weekly
 updateFrequency: 2
@@ -117,7 +118,7 @@ enableComment: true
 disqus_shortname: alvr
 
 socialOptions:
-  email: mailto:alvaro@alvr.me
+  email: mailto:alvaro@alvr.dev
   twitter: https://twitter.com/alvrSG
   github: https://github.com/alvr
   linkedin: https://linkedin.com/in/alvr

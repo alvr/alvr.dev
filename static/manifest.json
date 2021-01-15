@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "me, alvr",
-  "short_name": "me, alvr",
+  "name": "dev, alvr",
+  "short_name": "dev, alvr",
   "description": "Random things by a random human.",
   "default_locale": "es",
   "icons": [
@@ -45,7 +45,7 @@
   "background": {
     "persistent": false
   },
-  "start_url": "https://alvr.me/",
+  "start_url": "https://alvr.dev/",
   "theme_color": "#2D2A2E",
   "background_color": "#212121",
   "display": "standalone"

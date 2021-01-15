@@ -6,7 +6,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - me, alvr
+      - dev, alvr
     subtitle:
       - Random things by a random human.
     titleShadow: true

@@ -161,7 +161,7 @@ Después en el menú _Configure_, en el apartado _Sync with_ seleccionamos _OS 
 
 Es el servidor DNS que se suele utilizar y el que viene por defecto en la mayoría de los servidores. Bind se utiliza para apuntar el dominio a la dirección IP. Para configurarlo seleccionamos _BIND9_ en el menú y creamos un nuevo fichero.
 
-* **Name**: Escribimos el dominio, en mi caso _alvr.me_.
+* **Name**: Escribimos el dominio, en mi caso _alvr.dev_.
 * **Type**: _Master_.
 * **File**: _/etc/bind/db.&lt;name&gt;._ Siendo &lt;name&gt; el valor del primer campo de texto.
 * **Zone**: Podemos utilizar la [siguiente web](http://pgl.yoyo.org/as/bind-zone-file-creator.php) para generar el contenido del fichero.

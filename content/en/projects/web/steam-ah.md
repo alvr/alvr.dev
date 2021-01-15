@@ -30,4 +30,4 @@ Just enter your SteamID, either the **Steam 64 ID** like [*76561198004956893*](h
 
 The project is hosted by OpenShift, so it has limited resources.
 
-{{< button href="https://steam-ah.alvr.me" color="primary" >}}**Visit SteamAH**{{</ button >}}
+{{< button href="https://steam-ah.alvr.dev" color="primary" >}}**Visit SteamAH**{{</ button >}}
