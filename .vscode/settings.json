@@ -12,6 +12,7 @@
         "logcat",
         "markdownlint",
         "sdkmanager",
+        "webp",
         "zipalign"
     ]
 }

@@ -117,7 +117,7 @@ service ajenti restart
 
 ### Instalación en FreeBSD
 
-Prerequisitos:
+Requisitos:
 
 ```shell
 cd /usr/ports/devel/py-gevent;  make install clean;

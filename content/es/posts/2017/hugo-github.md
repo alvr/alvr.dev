@@ -43,11 +43,9 @@ Antes de comenzar necesitamos cumplir unos requisitos:
 
 En el directorio raíz crearemos tres archivos: `deps.sh`, `push.sh` y, en este caso, `circle.yml`
 
-### deps.sh
-
 Empezaremos instalando las dependencias necesarias. Solamente es descargar el ejecutable de Hugo y extraerlo.
 
-```bash
+```bash:deps.sh
 #!/bin/bash
 HUGO_VERSION=0.25.1
 
@@ -62,17 +60,15 @@ rm -rf hugo
 
 Para utilizar otra versión de Hugo solamente hay que cambiar la variable `HUGO_VERSION`
 
-### push.sh
-
 Cuando se haga `push` en el repositorio de Hugo, hay que actualizar el otro repositorio con el nuevo contenido.
 
 Primero se tiene que generar un [token](https://github.com/settings/tokens) y agregarlo a las variables de entorno de CircleCI/Travis/etcétera. Así se puede hacer un `push` sin tener que escribir la contraseña.
 
-```bash
+```bash:push.sh
 #!/bin/bash
 cd ./public
 
-#echo miweb.me > CNAME # Descomentar al usar dominio propio
+#echo miweb.dev > CNAME # Descomentar al usar dominio propio
 git init
 git config user.name "Mi Nombre"
 git config user.email "Mi correo"
@@ -81,14 +77,13 @@ git fetch upstream
 git reset upstream/master
 
 git add -A .
-git commit -m "usuario/repositio-hugo@${CIRCLE_SHA1}"
+git commit -m "usuario/repositorio-hugo@${CIRCLE_SHA1}"
 git remote show upstream
 git push -q upstream HEAD:master
 ```
+Y finalmente la configuración del servicio CI/CD.
 
-### circle.yml
-
-```yaml
+```yaml:circle.yml
 dependencies:
   pre:
     - pip install Pygments # Necesario si no se utiliza highlight.js

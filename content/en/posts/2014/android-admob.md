@@ -1,40 +1,40 @@
 ---
-title: Cómo añadir publicidad a tu aplicación Android
-subtitle: Añade publicidad de AdMob a tu aplicación Android muy fácilmente
-description: Añade publicidad de AdMob a tu aplicación Android muy fácilmente.
+title: How to add advertising to your Android app
+subtitle: Easily add AdMob advertising to your Android app
+description: Easily add AdMob advertising to your Android app.
 
 date: 2014-04-01T12:20:00+02:00
 categories:
   - Android
-  - Programación
+  - Programming
 tags:
   - admob
-  - publicidad
-  - publicidad android
+  - advertising
+  - android advertising
 
 image: /images/posts/2014/admob/admob-logo.webp
 translationKey: android-admob
-slug: publi-android
+slug: android-admob
 ---
-{{< notice warning "Deprecado" >}}
-Este tutorial es de **2014** y no es compatible con nuevas versiones del SDK de AdMob. Para una versión más actualizada, visita la [guía](https://developers.google.com/admob/android/quick-start?hl=es) de Google.
+{{< notice warning "Deprecated" >}}
+This tutorial is from **2014** and is not compatible with new versions of the AdMob SDK. For a more updated version, visit Google's [guide](https://developers.google.com/admob/android/quick-start?hl=en).
 {{< /notice >}}
 
-En este tutorial os voy a enseñar cómo añadir publicidad a vuestras aplicaciones Android. El sistema que utilizaré será AdMob, ya que es el mejor en su categoría aunque también hay alternativas, como InMobi, MobFox...
+In this tutorial I will teach you how to add advertising to your Android applications. The system I will use will be AdMob, as it is the best in its category but there are also alternatives, such as InMobi, MobFox...
 
 <!--more-->
 
-Lo primero será registrar la aplicación en la [página de AdMob](https://apps.admob.com/). Si ya tenías una cuenta antigua puedes importar los datos, sino añade una nueva aplicación. Si ya tienes publicada la aplicación en la Play Store tan solo tienes que buscarla y se añadirá automática. En el caso contrario la tendrás que añadir manualmente.
+The first thing to do is to register the application on the [AdMob page](https://apps.admob.com/). If you already had an old account you can import the data, otherwise add a new application. If you already have the application published in the Play Store, just search for it and it will be added automatically. Otherwise, you will have to add it manually.
 
-{{< img src="/images/posts/2014/admob/panel.webp" caption="Aplicaciones en AdMob" >}}
+{{< img src="/images/posts/2014/admob/panel.webp" caption="Applications in AdMob" >}}
 
-Cuando la hayamos creado pasamos a nuestro proyecto en Android Studio y abrimos el archivo `build.gradle`. Dentro nos vamos al apartado `dependencies` y agregamos la siguiente línea a las que ya están:
+When we have created it we go to our project in Android Studio and open the file `build.gradle`. Inside we go to the section `dependencies` and add the next line to those already there:
 
 ```groovy:build.gradle
 compile 'com.google.android.gms:play-services:11.0.0'
 ```
 
-Quedando tal que así:
+Just like this:
 
 ```groovy:build.gradle
 dependencies {
@@ -44,9 +44,9 @@ dependencies {
 }
 ```
 
-Y sincronizamos Gradle pulsando el botón Sync Project: ![Sincronizar proyecto](https://developer.android.com/images/tools/sync-project.png)
+And we synchronize Gradle by pressing the Sync Project button: ![Synchronize Project](https://developer.android.com/images/tools/sync-project.png)
 
-Ahora abrimos el archivo AndroidManifest.xml y añadimos las siguientes líneas encima de `</application>`:
+Now we open the AndroidManifest.xml file and add the following lines above `</application>`:
 
 ```xml:AndroidManifest.xml
 <meta-data android:name="com.google.android.gms.version"
@@ -56,14 +56,14 @@ Ahora abrimos el archivo AndroidManifest.xml y añadimos las siguientes líneas 
     android:theme="@android:style/Theme.Translucent" />
 ```
 
-Antes de la etiqueta `<application>` añadimos los permisos necesarios para mostrar los anuncios:
+Before the `<application>` tag we add the necessary permissions to display the ads:
 
 ```xml:AndroidManifest.xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-Ahora vamos a crear un `LinearLayout` que contendrá nuestro banner, quedando así:
+Now we are going to create a 'LinearLayout' that will contain our banner, leaving it like this:
 
 ```xml:activity_main.xml
 <LinearLayout
@@ -74,7 +74,7 @@ Ahora vamos a crear un `LinearLayout` que contendrá nuestro banner, quedando as
     android:orientation="vertical" >
 
     <com.google.android.gms.ads.AdView
-        android:id="@+id/publicidad"
+        android:id="@+id/ads"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ads:adSize="SMART_BANNER"
@@ -83,7 +83,7 @@ Ahora vamos a crear un `LinearLayout` que contendrá nuestro banner, quedando as
 </LinearLayout>
 ```
 
-Con esta configuración el banner aparecerá en el pie de la aplicación. Por ejemplo si lo queremos utilizar en un `DrawerLayout` que utilice `Fragment` y `NavigationView`, el diseño quedaría así:
+With this configuration the banner will appear in the footer of the application. For example if we want to use it in a `DrawerLayout` that uses `Fragment` and `NavigationView`, the design would look like this:
 
 ```xml:activity_main.xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -111,7 +111,7 @@ Con esta configuración el banner aparecerá en el pie de la aplicación. Por ej
         android:orientation="vertical" >
 
         <com.google.android.gms.ads.AdView
-            android:id="@+id/publicidad"
+            android:id="@+id/ads"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             ads:adSize="SMART_BANNER"
@@ -128,15 +128,15 @@ Con esta configuración el banner aparecerá en el pie de la aplicación. Por ej
 </android.support.v4.widget.DrawerLayout>
 ```
 
-Como se puede comprobar, utilizamos una cadena para definir el `AdUnitId`. Para ello insertamos una nueva cadena en `/values/strings.xml`:
+As you can see, we use a string to define the 'AdUnitId'. To do this we insert a new string in `/values/strings.xml`:
 
 ```xml:strings.xml
 <string name="admob" translatable="false">ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX</string>
 ```
 
-El atributo `translatable` hace que la cadena sea la misma para todos los idiomas que tenga nuestra aplicación.
+The 'translatable' attribute makes the string the same for all the languages that our application has.
 
-Finalmente, en `onCreate()` de nuestra actividad principal, añadimos el código para que cargue la publicidad:
+Finally, in `onCreate()` of our main activity, we add the code to load the advertising:
 
 ```java:MainActivity.java
 import android.os.Bundle;
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        adView = (AdView) findViewById(R.id.publicidad);
+        adView = (AdView) findViewById(R.id.ads);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
     }
@@ -179,4 +179,4 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-Y eso es todo. Puedes comprobar que funciona viendo las capturas de [PkmnDex](/proyectos/android/pkmndex/).
+And that is all. You can check that it works by watching the screenshots in [PkmnDex](/en/projects/android/pkmndex/).
