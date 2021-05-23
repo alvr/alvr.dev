@@ -14,16 +14,17 @@ header:
 items:
   - title: Professional Experience
     sections:
-      - title: Android Developer
+      - title: Senior Android Developer
         subtitle: Babel Sistemas de Información
         startDate: 2019-02-11
         endDateText: present
         contents: | 
-          Currently working mainly in two projects of Santander Deutschland performing maintenance and evolution of both applications. Occasionally I collaborate on other projects that require additional assistance. Regarding the applications of Santander Deutschland:
+          Currently working mainly in two projects of Santander Deutschland ([Santander Banking](https://play.google.com/store/apps/details?id=de.santander.presentation) and [SantanderSign](https://play.google.com/store/apps/details?id=mobile.santander.de.smartsign)) performing maintenance and evolution of both applications. Occasionally I collaborate on other projects that require additional assistance, like Renfe Ticket. Regarding the applications of Santander Deutschland:
           
           * I improved the stability of the application by increasing the percentage of error-free sessions from 82% to 99.4% in two months.
           * I increased the code coverage from 37% to 81% by doing instrumental and unit tests.
           * Code refactoring: increase readability and improve the structure of the code; technical and functional documentation; improvements in smoothness and speed.
+          * I make sure that the mobile banking application is always up to date in terms of library versions in order to take advantage of the new functionalities that are included.
           * I improved the security and integrity of the application by performing actions such as: encrypting sensitive user information, avoiding the use of modified devices and code obfuscation.
           * I created two data mocks, one static and one dynamic. I made them because of the limitations to connect to pre-production environments. Both are written in Golang.
 
@@ -53,11 +54,11 @@ items:
         startDate: 2017-03-17
         endDateText: present
         contents: |
-          Docker image based on Alpine Linux for testing and compiling Android applications. Thanks to Alpine you can get a lighter and less heavy image than Debian/Ubuntu based images. The base images in Alpine JDK8 and JDK11 are 244.43MB and 331.21MB respectively. The final size of the latest Android 11 version is 488.65MB for JDK8 and 575.42MB for JDK11, while in Debian/Ubuntu they can exceed 2GB.
+          Docker image based on Alpine Linux for testing and compiling Android applications. Thanks to Alpine you can get a lighter and less heavy image than Debian/Ubuntu based images. The base images in Alpine JDK8 and JDK11 are 244.43MB and 331.21MB respectively. The final size of the latest Android 11 version is 525MB for JDK8 and 615MB for JDK11, while in Debian/Ubuntu they can exceed 2GB.
           
-          There are several versions available: from Lollipop to Android 11.
+          There are several versions available: from Lollipop to Android 12.
           
-          It has 100,000+ downloads from [Docker](https://hub.docker.com/r/alvrme/alpine-android/) and 100+ stars in [GitHub](https://github.com/alvr/alpine-android).
+          It has 200,000+ downloads from [Docker](https://hub.docker.com/r/alvrme/alpine-android/) and 100+ stars in [GitHub](https://github.com/alvr/alpine-android).
 
       - title: Pressurizer
         titleLink: /en/projects/web/pressurizer/
