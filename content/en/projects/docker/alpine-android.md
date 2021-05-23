@@ -89,8 +89,8 @@ RUN sdkmanager --sdk_root=${ANDROID_SDK_ROOT} --install <package1> <package2> <.
 
 There are two variants of the image:
 
-* JDK8 images are based on `adoptopenjdk/openjdk8:alpine` (JDK 8u275-b01) and uses the tag's suffix `-jdk8`.
-* JDK11 images are based on `adoptopenjdk/openjdk11:alpine` (JDK 11.0.9.1+1) and uses the tag's suffix `-jdk11`.
+* JDK8 images are based on `adoptopenjdk/openjdk8:alpine` (JDK 8u292-b10) and uses the tag's suffix `-jdk8`.
+* JDK11 images are based on `adoptopenjdk/openjdk11:alpine` (JDK 11.0.11+9) and uses the tag's suffix `-jdk11`.
 
 ### Which one should I use?
 
@@ -130,8 +130,11 @@ If you want to use a JDK11 image with a version of AGP prior to v7, remember tha
 | Android 9.0 (28) | `android-28`, `android-28-jdk8`                          | `android-28-jdk11`                 |
 | Android 10 (29)  | `android-29`, `android-29-jdk8`                          | `android-29-jdk11`                 |
 | Android 11 (30)  | `android-30`, `android-30-jdk8`, `latest`, `latest-jdk8` | `android-30-jdk11`, `latest-jdk11` |
+| Android 12 (31)  | `android-S`, `android-S-jdk8`                            | `android-S-jdk11`                  |
 
 > :memo: The tags `latest` and `android-XX` will be using the JDK8 base image for one year after AGP 7.0.0 is released to avoid problems with currents CI/CD configurations. That date is yet TBD. After that date, if you want to continue to use JDK8, you must update your configuration with the corresponding tag.
+
+> :warning: Android 12 is in beta state. Preview versions are tagged differently using the letter of the version instead the API level. Android 12 will be using `latest` tag one month and a half after the stable release (TBD).
 
 ### Versioning
 
@@ -217,7 +220,7 @@ extras fastlane <version>
 |-----------------------------|---------|-------------------------------------|------------------------------|
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 
 </div>
 {{< /expand >}}
@@ -230,7 +233,7 @@ extras fastlane <version>
 | build-tools;21.1.2          | 21.1.2  | Android SDK Build-Tools             | build-tools/21.1.2/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-21        | 2       | Android SDK Platform 21             | platforms/android-21/        |
 
 </div>
@@ -244,7 +247,7 @@ extras fastlane <version>
 | build-tools;22.0.1          | 22.0.1  | Android SDK Build-Tools             | build-tools/22.0.1/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-22        | 2       | Android SDK Platform 22             | platforms/android-22/        |
 
 </div>
@@ -258,7 +261,7 @@ extras fastlane <version>
 | build-tools;23.0.3          | 23.0.3  | Android SDK Build-Tools             | build-tools/23.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-23        | 3       | Android SDK Platform 23             | platforms/android-23/        |
 
 </div>
@@ -272,7 +275,7 @@ extras fastlane <version>
 | build-tools;24.0.3          | 24.0.3  | Android SDK Build-Tools             | build-tools/24.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-24        | 2       | Android SDK Platform 24             | platforms/android-24/        |
 
 </div>
@@ -286,7 +289,7 @@ extras fastlane <version>
 | build-tools;25.0.3          | 25.0.3  | Android SDK Build-Tools             | build-tools/25.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-25        | 3       | Android SDK Platform 25             | platforms/android-25/        |
 
 </div>
@@ -300,7 +303,7 @@ extras fastlane <version>
 | build-tools;26.0.3          | 26.0.3  | Android SDK Build-Tools             | build-tools/26.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-26        | 2       | Android SDK Platform 26             | platforms/android-26/        |
 
 </div>
@@ -314,7 +317,7 @@ extras fastlane <version>
 | build-tools;27.0.3          | 27.0.3  | Android SDK Build-Tools             | build-tools/27.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-27        | 3       | Android SDK Platform 27             | platforms/android-27/        |
 
 </div>
@@ -328,7 +331,7 @@ extras fastlane <version>
 | build-tools;28.0.3          | 28.0.3  | Android SDK Build-Tools             | build-tools/28.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-28        | 6       | Android SDK Platform 28             | platforms/android-28/        |
 
 </div>
@@ -342,7 +345,7 @@ extras fastlane <version>
 | build-tools;29.0.3          | 29.0.3  | Android SDK Build-Tools             | build-tools/29.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-29        | 5       | Android SDK Platform 29             | platforms/android-29/        |
 
 </div>
@@ -356,8 +359,22 @@ extras fastlane <version>
 | build-tools;30.0.3          | 30.0.3  | Android SDK Build-Tools             | build-tools/30.0.3/          |
 | extras;google;instantapps   | 1.9.0   | Google Play Instant Development SDK | extras/google/instantapps/   |
 | patcher;v4                  | 1       | SDK Patch Applier v4                | patcher/v4/                  |
-| platform-tools              | 30.0.5  | Android SDK Platform-Tools          | platform-tools/              |
+| platform-tools              | 31.0.2  | Android SDK Platform-Tools          | platform-tools/              |
 | platforms;android-30        | 3       | Android SDK Platform 30             | platforms/android-30/        |
+
+</div>
+{{< /expand >}}
+
+{{< expand "See content of Android 31 image (Preview)" >}}
+<div class="table-wrapper">
+
+| Path                        | Version    | Description                         | Location                     |
+|-----------------------------|------------|-------------------------------------|------------------------------|
+| build-tools;31.0.0-rc4      | 31.0.0-rc4 | Android SDK Build-Tools             | build-tools/31.0.0-rc4/      |
+| extras;google;instantapps   | 1.9.0      | Google Play Instant Development SDK | extras/google/instantapps/   |
+| patcher;v4                  | 1          | SDK Patch Applier v4                | patcher/v4/                  |
+| platform-tools              | 31.0.2     | Android SDK Platform-Tools          | platform-tools/              |
+| platforms;android-S         | 4          | Android SDK Platform S (Preview)    | platforms/android-S/         |
 
 </div>
 {{< /expand >}}

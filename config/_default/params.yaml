@@ -44,7 +44,7 @@ notAllowedTypesInHomeFeed:
   - resume
   - gallery
 
-viewportSize: wide
+viewportSize: wider
 enableUiAnimation: false
 hideSingleContentsWhenJSDisabled: false
 enablePinnedPosts: true
