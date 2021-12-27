@@ -13,3 +13,15 @@
   package = "netlify-plugin-submit-sitemap"
 	[plugins.inputs]
     baseUrl = "https://alvr.dev"
+
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
+
+[[plugins]]
+  package = "netlify-plugin-service-worker"
+
+[[redirects]]
+  from = "https://alvr.netlify.app/*"
+  to = "https://alvr.dev/:splat"
+  status = 301
+  force = true
