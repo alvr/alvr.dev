@@ -13,3 +13,18 @@
   package = "netlify-plugin-submit-sitemap"
 	[plugins.inputs]
     baseUrl = "https://alvr.dev"
+
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
+
+[[plugins]]
+  package = "netlify-plugin-service-worker"
+
+[[plugins]]
+  package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ["master"]
+  mainBranch = "master"
+  pathPrefix = "/"
+  customDomain = "alvr.dev"
+  renderJavaScript = true

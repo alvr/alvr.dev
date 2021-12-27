@@ -1,65 +1,140 @@
 baseURL: https://alvr.dev
 title: dev, alvr
-theme: zzo
+theme: paper
 
+copyright: © 2013 — 2022 Álvaro Salcedo García | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0 "License")
 defaultContentLanguage: es
-
-summaryLength: 70
-buildFuture: true
-copyright: © 2013 — {year} Álvaro Salcedo García | <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>
-timeout: 10000
 enableEmoji: true
-paginate: 10
-rssLimit: 100
 enableGitInfo: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
 googleAnalytics: UA-37621780-1
-
+markup:
+  asciidocExt:
+    attributes: {}
+    backend: html5
+    extensions: []
+    failureLevel: fatal
+    noHeaderOrFooter: true
+    preserveTOC: false
+    safeMode: unsafe
+    sectionNumbers: false
+    trace: false
+    verbose: false
+    workingFolderCurrent: false
+  blackFriday:
+    angledQuotes: false
+    extensions: null
+    extensionsMask: null
+    footnoteAnchorPrefix: ""
+    footnoteReturnLinkContents: ""
+    fractions: true
+    hrefTargetBlank: false
+    latexDashes: true
+    nofollowLinks: false
+    noreferrerLinks: false
+    plainIDAnchors: true
+    skipHTML: false
+    smartDashes: true
+    smartypants: true
+    smartypantsQuotesNBSP: false
+    taskLists: true
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    css:
+      keepCSS2: true
+      precision: 0
+    html:
+      keepComments: false
+      keepConditionalComments: true
+      keepDefaultAttrVals: true
+      keepDocumentTags: true
+      keepEndTags: true
+      keepQuotes: true
+      keepWhitespace: false
+    js:
+      keepVarNames: false
+      precision: 0
+    json:
+      keepNumbers: false
+      precision: 0
+    svg:
+      precision: 0
+    xml:
+      keepWhitespace: false
+outputs:
+  home: [AMP, HTML, JSON, RSS]
+  page: [AMP, HTML, JSON]
+  section: [HTML]
+  taxonomy: [HTML]
+  term: [HTML]
+paginate: 4
 permalinks:
   posts: /post/:slug
   tags: /tag/:slug
-
-markup:
-  goldmark:
-    renderer:
-      hardWraps: true
-      unsafe: true
-      xHTML: true
-  highlight:
-    codeFences: true
-    lineNos: true
-    lineNumbersInTable: true
-    noClasses: false
-  tableOfContents:
-    endLevel: 4
-    ordered: false
-    startLevel: 2
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - SearchIndex
-  section:
-    - HTML
-    - RSS
-    - SearchIndex
-  taxonomyTerm:
-    - HTML
-    - RSS
-    - SearchIndex
-  taxonomy:
-    - HTML
-    - RSS
-    - SearchIndex
-
-outputFormats:
-  SearchIndex:
-    mediaType: application/json
-    baseName: index
-    isPlainText: true
-    notAlternative: true
-
+related:
+  includeNewer: false
+  indices:
+  - name: keywords
+    weight: 100
+  - name: date
+    weight: 10
+  threshold: 80
+  toLower: false
+relativeURLs: true
+removePathAccents: true
+rssLimit: 100
+security:
+  enableInlineShortcodes: true
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+summaryLength: 70
 taxonomies:
   category: categories
   tag: tags
   series: series
+timeZone: Europe/Madrid

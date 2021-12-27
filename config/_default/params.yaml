@@ -1,135 +1,61 @@
-logoText: dev, alvr
-logoType: short
-logo: false
+title: dev, alvr
 description: Random things by a random human.
-custom_css: []
-custom_js: []
-useFaviconGenerator: true
-meta_image: ../images/avatar.webp
+keywords: [blog, portfolio, personal, programming, android]
+author: Álvaro Salcedo García
+images: [/images/alvr.webp]
+DateFormat: January 2, 2006
+defaultTheme: dark
+disableThemeToggle: true
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowFullTextinRSS: true
+ShareButtons: [twitter, facebook, linkedin, whatsapp, telegram]
+disableSpecial1stPost: false
+disableScrollToTop: false
+displayFullLangName: true
+comments: true
+hidemeta: false
+hideSummary: false
+hideFooter: true
+showtoc: true
+tocopen: false
 
-themecolor: dark
-themeOptions:
-  - dark
+assets:
+  disableHLJS: false
+  disableFingerprinting: false
 
-notAllowedTypesInHome:
-  - contact
-  - talks
-  - about
-  - showcase
-  - publication
-  - presentation
-  - resume
-notAllowedTypesInHomeSidebar:
-  - about
-  - archive
-  - showcase
-  - publication
-  - presentation
-  - resume
-notAllowedTypesInArchive:
-  - about
-  - contact
-  - talks
-  - publication
-  - presentation
-  - resume
-notAllowedTypesInHomeFeed:
-  - about
-  - archive
-  - contact
-  - talks
-  - showcase
-  - publication
-  - presentation
-  - resume
-  - gallery
-
-viewportSize: wider
-enableUiAnimation: false
-hideSingleContentsWhenJSDisabled: false
-enablePinnedPosts: true
-minItemsToShowInTagCloud: 1
-
-enableAppbarSearchIcon: false
-enableAppbarLangIcon: true
-
-homeHeaderType: text
-hideHomeHeaderWhenMobile: false
-
-showMobileMenuTerms:
-  - tags
-  - categories
-  - series
-
-enableBreadcrumb: true
-enablePhotoSwipe: true
-enableSearch: true
-enableSearchHighlight: true
-enableGoToTop: true
-enableWhoami: false
-
-summaryShape: classic
-searchResultPosition: main
-archiveGroupByDate: '2006'
-archivePaginate: 13
-paginateWindow: 1
-talksPaginate: 5
-talksGroupByDate: '2006'
-pubPaginate: 20
-
-myname: Álvaro Salcedo García
-bioImageUrl: ../images/avatar.webp
-
-enableBio: true
-enableBioImage: true
-enableSidebar: true
-enableSidebarTags: true
-enableSidebarSeries: true
-enableSidebarCategories: true
-enableHomeSidebarTitles: false
-enableListSidebarTitles: false
-enableToc: true
-hideToc: false
-tocFolding: false
-tocPosition: inner
-enableTocSwitch: false
-itemsPerCategory: 5
-sidebarPosition: right
-tocLevels:
-  - h1
-  - h2
-  - h3
-  - h4
-enableSidebarPostsByOrder: false
-
-showPoweredBy: false
-showFeedLinks: true
-showSocialLinks: true
-enableLangChange: false
-enableThemeChange: false
-
-googleTagManager: GTM-WLC9NVG
-
-updatePeriod: weekly
-updateFrequency: 2
-fullContents: false
-
-enableComment: true
-disqus_shortname: alvr
-
-socialOptions:
-  email: mailto:alvaro@alvr.dev
-  twitter: https://twitter.com/alvrSG
-  github: https://github.com/alvr
-  linkedin: https://linkedin.com/in/alvr
-  gitlab: https://gitlab.com/alvr
-
-donationOptions:
-  enable: true
-  paypal: https://paypal.me/alvaro
-
-share:
-  - name: facebook
-  - name: twitter
-    username: alvrSG
+socialIcons:
+  - name: github
+    url: https://github.com/alvr
+  - name: gitlab
+    url: https://gitlab.com/alvr
+  - name: keybase
+    url: https://keybase.io/alvr
+  - name: kofi
+    url: https://ko-fi.com/alvrSG
   - name: linkedin
+    url: https://linkedin.com/in/alvr
+  - name: twitter
+    url: https://twitter.com/alvrSG
+  - name: email
+    url: mailto:alvaro@alvr.dev
+  - name: rss
+    url: index.xml
+
+cover:
+  responsiveImages: true
+  hidden: false
+  hiddenInList: true
+  hiddenInSingle: true
+
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: [title, permalink, summary, content]

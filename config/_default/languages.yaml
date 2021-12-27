@@ -1,15 +1,31 @@
 es:
-  whoami: Desarrollador Android
-
   languageName: Español
+  languageAltTitle: Español
   weight: 1
   languagedir: ltr
   contentdir: content/es
 
-en:
-  whoami: Android Developer
+  params:
+    profileMode:
+      enabled: true
+      subtitle: Ingeniero Software ~ Desarrollador Android
+      imageUrl: /images/alvr.webp
+      imageTitle: avatar
+      imageHeight: 192
+      imageWidth: 192
 
+en:
   languageName: English
+  languageAltTitle: English
   weight: 2
   languagedir: ltr
   contentdir: content/en
+
+  params:
+    profileMode:
+      enabled: true
+      subtitle: Software Engineer ~ Android Developer
+      imageUrl: /images/alvr.webp
+      imageTitle: avatar
+      imageHeight: 192
+      imageWidth: 192
