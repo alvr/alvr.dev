@@ -1,0 +1,12 @@
+main:
+  - identifier: about
+    name: Sobre mí
+    post: " &#x1f9d1;"
+    url: sobre-mi/
+    weight: 1
+
+  - identifier: search
+    name: Buscar
+    post: " &#x1f50d;"
+    url: buscar/
+    weight: 3

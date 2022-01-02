@@ -105,8 +105,8 @@ minify:
     xml:
       keepWhitespace: false
 outputs:
-  home: [AMP, HTML, JSON, RSS]
-  page: [AMP, HTML, JSON]
+  home: [HTML, JSON, RSS]
+  page: [HTML]
   section: [HTML]
   taxonomy: [HTML]
   term: [HTML]

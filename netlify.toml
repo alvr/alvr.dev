@@ -1,7 +1,7 @@
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
 	[plugins.inputs]
-	debug = true
+	  debug = true
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
@@ -18,13 +18,47 @@
   package = "netlify-plugin-inline-critical-css"
 
 [[plugins]]
-  package = "netlify-plugin-service-worker"
-
-[[plugins]]
   package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
-  branches = ["master"]
-  mainBranch = "master"
-  pathPrefix = "/"
-  customDomain = "alvr.dev"
-  renderJavaScript = true
+    branches = ["master"]
+    mainBranch = "master"
+    pathPrefix = "/"
+    customDomain = "alvr.dev"
+    renderJavaScript = true
+
+[[plugins]]
+  package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+    entryPoints = ["*.html",]
+    recursive = true
+    pretty = true
+    checkExternal = false
+
+[[plugins]]
+  package = "netlify-plugin-minify-html"
+
+  [plugins.inputs]
+    contexts = ["production"]
+
+  [plugins.inputs.minifierOptions]
+    collapseInlineTagWhitespace = false
+    collapseWhitespace = true
+    minifyCSS = true
+    minifyJS = true
+    minifyURLs = true
+    removeComments = true
+    sortAttributes = true
+    sortClassName = true
+
+[[redirects]]
+  from = "https://alvr.netlify.app/*"
+  to = "https://alvr.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://master--alvr.netlify.app/*"
+  to = "https://alvr.dev/:splat"
+  status = 301
+  force = true
