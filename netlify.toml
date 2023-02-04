@@ -1,46 +1,23 @@
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
 	[plugins.inputs]
-	  debug = true
-
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
+	  debug = false
 
 [[plugins]]
   package = "netlify-purge-cloudflare-on-deploy"
 
 [[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-	[plugins.inputs]
-    baseUrl = "https://alvr.dev"
-
-[[plugins]]
-  package = "netlify-plugin-inline-critical-css"
-
-[[plugins]]
-  package = "@algolia/netlify-plugin-crawler"
-  [plugins.inputs]
-    branches = ["master"]
-    mainBranch = "master"
-    pathPrefix = "/"
-    customDomain = "alvr.dev"
-    renderJavaScript = true
-
-[[plugins]]
   package = "netlify-plugin-checklinks"
-
   [plugins.inputs]
-    entryPoints = ["*.html",]
+    entryPoints = [".css", "*.html", "*.js"]
     recursive = true
     pretty = true
     checkExternal = false
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
-
   [plugins.inputs]
     contexts = ["production"]
-
   [plugins.inputs.minifierOptions]
     collapseInlineTagWhitespace = false
     collapseWhitespace = true

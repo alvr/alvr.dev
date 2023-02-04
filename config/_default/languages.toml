@@ -1,0 +1,15 @@
+[es]
+languageName = "Español"
+weight = 1
+contentdir = "content/es"
+  [es.params]
+  languageAltTitle = "Español"
+  languagedir = "ltr"
+
+[en]
+languageName = "English"
+weight = 2
+contentdir = "content/en"
+  [en.params] 
+  languageAltTitle = "English"
+  languagedir = "ltr"
