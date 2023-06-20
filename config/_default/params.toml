@@ -1,0 +1,484 @@
+version = "0.2.17"
+description = "Random things by a random human."
+keywords = [ "blog", "portfolio", "personal", "programming", "android" ]
+defaultTheme = "dark"
+gitRepo = "https://github.com/alvr/me"
+fingerprint = ""
+dateFormat = "January 2, 2006"
+images = [ "/images/alvr.webp" ]
+enablePWA = true
+externalIcon = true
+disableThemeInject = false
+
+[app]
+title = "dev, alvr"
+noFavicon = false
+svgFavicon = ""
+iconColor = "#5bbad5"
+tileColor = "#da532c"
+  [app.themeColor]
+  light = "#f8f8f8"
+  dark = "#3b3b3b"
+
+[search]
+enable = true
+type = "fuse"
+contentLength = 4000
+placeholder = ""
+maxResultLength = 10
+snippetLength = 30
+highlightTag = "em"
+absoluteURL = false
+  [search.algolia]
+  index = ""
+  appID = ""
+  searchKey = ""
+
+  [search.fuse]
+  isCaseSensitive = false
+  minMatchCharLength = 2
+  findAllMatches = false
+  location = 0
+  threshold = 0.3
+  distance = 100
+  ignoreLocation = false
+  useExtendedSearch = false
+  ignoreFieldNorm = false
+
+[header]
+desktopMode = "normal"
+mobileMode = "auto"
+  [header.title]
+  logo = ""
+  name = "dev, alvr"
+  pre = "&#128104;&#8205;&#128187;"
+  post = ""
+  typeit = false
+
+  [header.subtitle]
+  name = ""
+  typeit = false
+
+[footer]
+enable = true
+custom = ""
+hugo = false
+copyright = true
+author = true
+since = 2013
+wordCount = true
+gov = ""
+icp = ""
+license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [footer.siteTime]
+  enable = true
+  animate = true
+  icon = "fa-solid fa-heartbeat"
+  pre = ""
+  value = ""
+
+  [footer.order]
+  powered = 0
+  copyright = 0
+  statistics = 0
+  visitor = 0
+  beian = 0
+
+[section]
+paginate = 7
+dateFormat = "2 January"
+rss = 10
+  [section.recentlyUpdated]
+  enable = false
+  rss = false
+  days = 30
+  maxCount = 10
+
+[list]
+paginate = 7
+dateFormat = "2 January"
+rss = 10
+
+[tagcloud]
+enable = false
+min = 14
+max = 32
+peakCount = 10
+orderby = "name"
+
+[home]
+rss = 10
+  [home.profile]
+  enable = true
+  gravatarEmail = "alvaro@alvr.dev"
+  avatarURL = "/images/alvr.webp"
+  avatarMenu = "about"
+  title = "dev, alvr"
+  subtitle = "Random things by a random human."
+  typeit = true
+  social = true
+  disclaimer = ""
+
+  [home.posts]
+  enable = false
+  paginate = 6
+
+[social]
+GitHub = "alvr"
+Linkedin = "alvr"
+Twitter = "alvrSG"
+Stackoverflow = "1882643"
+Paypal = "alvaro"
+Mastodon = "@alvr"
+RSS = true
+
+[page]
+hiddenFromHomePage = false
+hiddenFromSearch = false
+twemoji = false
+lightgallery = true
+ruby = true
+fraction = true
+fontawesome = true
+license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+linkToMarkdown = true
+rssFullText = false
+pageStyle = "narrow"
+gravatarForce = false
+autoBookmark = false
+wordCount = true
+readingTime = true
+endFlag = ""
+instantPage = true
+  [page.repost]
+  enable = false
+  url = ""
+
+  [page.toc]
+  enable = true
+  keepStatic = false
+  auto = true
+  position = "right"
+
+  [page.expirationReminder]
+  enable = false
+  reminder = 90
+  warning = 180
+  closeComment = false
+
+  [page.math]
+  enable = true
+  inlineLeftDelimiter = ""
+  inlineRightDelimiter = ""
+  blockLeftDelimiter = ""
+  blockRightDelimiter = ""
+  copyTex = true
+  mhchem = true
+
+  [page.code]
+  copy = true
+  edit = true
+  maxShownLines = 10
+  
+  [page.edit]
+  enable = false
+  url = ""
+
+  [page.mapbox]
+  accessToken = ""
+  lightStyle = "mapbox://styles/mapbox/light-v9"
+  darkStyle = "mapbox://styles/mapbox/dark-v9"
+  navigation = true
+  geolocate = true
+  scale = true
+  fullscreen = true
+
+  [page.reward]
+  enable = false
+  animation = false
+  position = "after"
+    [page.reward.ways]
+    wechatpay = ""
+    alipay = ""
+    paypal = ""
+    bitcoin = ""
+
+  [page.share]
+  enable = true
+  Twitter = true
+  Facebook = true
+  Linkedin = true
+  Whatsapp = true
+  Pinterest = false
+  Tumblr = false
+  HackerNews = false
+  Reddit = false
+  VK = false
+  Buffer = false
+  Xing = false
+  Line = false
+  Instapaper = false
+  Pocket = false
+  Digg = false
+  Stumbleupon = false
+  Flipboard = false
+  Weibo = false
+  Renren = false
+  Myspace = false
+  Blogger = false
+  Baidu = false
+  Odnoklassniki = false
+  Evernote = false
+  Skype = false
+  Trello = false
+  Mix = false
+
+  [page.comment]
+  enable = true
+    [page.comment.artalk]
+    enable = false
+    server = ""
+    site = ""
+    placeholder = ""
+    noComment = ""
+    sendBtn = ""
+    editorTravel = true
+    flatMode = "auto"
+    maxNesting = 3
+    lightgallery = false
+    locale = ""
+
+    [page.comment.disqus]
+    enable = false
+    shortname = ""
+
+    [page.comment.gitalk]
+    enable = false
+    owner = ""
+    repo = ""
+    clientId = ""
+    clientSecret = ""
+
+    [page.comment.valine]
+    enable = false
+    appId = ""
+    appKey = ""
+    placeholder = ""
+    avatar = "mp"
+    meta= ""
+    pageSize = 10
+    lang = ""
+    visitor = true
+    recordIP = true
+    highlight = true
+    enableQQ = false
+    serverURLs = ""
+    emoji = ""
+    commentCount = true
+
+    [page.comment.waline]
+    enable = false
+    serverURL = ""
+    pageview = false
+    emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
+    meta = ["nick", "mail", "link"]
+    requiredMeta = []
+    login = "enable"
+    wordLimit = 0
+    pageSize = 10
+    imageUploader = false
+    highlighter = false
+    comment = false
+    texRenderer = false
+    search = false
+    recaptchaV3Key = ""
+    reaction = false
+
+    [page.comment.facebook]
+    enable = false
+    width = "100%"
+    numPosts = 10
+    appId = ""
+    languageCode = ""
+
+    [page.comment.telegram]
+    enable = false
+    siteID = ""
+    limit = 5
+    height = ""
+    color = ""
+    colorful = true
+    dislikes = false
+    outlined = false
+
+    [page.comment.commento]
+    enable = false
+
+    [page.comment.utterances]
+    enable = false
+    repo = ""
+    issueTerm = "pathname"
+    label = ""
+    lightTheme = "github-light"
+    darkTheme = "github-dark"
+
+    [page.comment.twikoo]
+    enable = false
+    envId = ""
+    region = ""
+    path = ""
+    visitor = true
+    commentCount = true
+    lightgallery = false
+    katex = false
+
+    [page.comment.giscus]
+    enable = true
+    repo = "alvr/me"
+    repoId = "MDEwOlJlcG9zaXRvcnk5NjU1NTE2Mg=="
+    category = "Posts"
+    categoryId = "DIC_kwDOBcFQms4CT_pc"
+    mapping = "pathname"
+    term = ""
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    lightTheme = "light"
+    darkTheme = "dark"
+    lazyLoad = true
+
+  [page.library]
+    [page.library.css]
+    # someCSS = "some.css"
+    # someCSS = "https://cdn.example.com/some.css"
+    [page.library.js]
+    # someJavascript = "some.js"
+    # someJavascript = "https://cdn.example.com/some.js"
+
+  [page.seo]
+  images = ["images/alvr.webp"]
+    [page.seo.publisher]
+    name = "Álvaro Salcedo García"
+    logoUrl = "images/alvr.webp"
+
+[typeit]
+speed = 100
+cursorSpeed = 1000
+cursorChar = "|"
+duration = -1
+
+[mermaid]
+themes = ["dark"]
+
+# FixIt 0.2.12 | NEW Watermark config
+# Detail config see https://github.com/Lruihao/watermark#readme
+[watermark]
+enable = false
+# watermark's text (HTML format is supported)
+content = ""
+# watermark's transparency
+opacity = 0.1
+# parent of watermark's container
+appendTo = ".wrapper>main"
+# watermark's width. unit: px
+width = 150
+# watermark's height. unit: px
+height = 20
+# row spacing of watermarks. unit: px
+rowSpacing = 60
+# col spacing of watermarks. unit: px
+colSpacing = 30
+# watermark's tangent angle. unit: deg
+rotate = 15
+# watermark's fontSize. unit: rem
+fontSize = 0.85
+# FixIt 0.2.13 | NEW watermark's fontFamily
+fontFamily = "inherit"
+
+[verification]
+google = ""
+bing = ""
+yandex = ""
+pinterest = ""
+baidu = ""
+so = ""
+sogou = ""
+
+# FixIt 0.2.10 | NEW Site SEO config
+[seo]
+# image URL
+image = ""
+# thumbnail URL
+thumbnailUrl = ""
+
+[analytics]
+enable = true
+  [analytics.google]
+  id = "UA-37621780-1"
+  anonymizeIP = true
+
+  [analytics.fathom]
+  id = ""
+  server = ""
+
+[cookieconsent]
+enable = false
+  [cookieconsent.content]
+  message = ""
+  dismiss = ""
+  link = ""
+
+[cdn]
+data = ""
+
+[compatibility]
+polyfill = false
+objectFit = false
+
+[githubCorner]
+enable = false
+permalink = "https://github.com/hugo-fixit/FixIt"
+title = "View source on GitHub"
+position = "right"
+
+[gravatar]
+host = "www.gravatar.com"
+style = "retro"
+
+[backToTop]
+enable = true
+scrollpercent = false
+
+[readingProgress]
+enable = true
+start = "left"
+position = "top"
+reversed = false
+light = ""
+dark = "#d6d6d6"
+height = "2px"
+
+[pace]
+enable = true
+color = "silver"
+theme = "minimal"
+
+# FixIt 0.2.17 | NEW Define custom file paths
+# Create your custom files in site directory `layouts/partials/custom` and uncomment needed files below
+[customFilePath]
+# aside = "custom/aside.html"
+# profile = "custom/profile.html"
+# footer = "custom/footer.html"
+
+# FixIt 0.2.15 | NEW Developer options
+[dev]
+enable = false
+# Check for updates
+c4u = false
+# Please do not expose to public!
+githubToken = ""
+# Mobile Devtools config
+[dev.mDevtools]
+enable = false
+# "vConsole", "eruda" supported
+type = "vConsole"
