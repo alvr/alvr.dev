@@ -16,7 +16,7 @@ summaryLength = 70
 timeZone = "Europe/Madrid"
 
 [author]
-name = "alvr"
+name = "Álvaro Salcedo García"
 email = "alvaro@alvr.dev"
 link = ""
 avatar = "/images/alvr.webp"

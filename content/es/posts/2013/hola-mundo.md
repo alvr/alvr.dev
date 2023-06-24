@@ -2,6 +2,7 @@
 title: ¡Hola Mundo!
 subtitle: El inicio
 description: Qué mejor manera de empezar el blog que con la primera cosa que haces como programador.
+draft: true
 
 date: 2013-01-11T12:00:00+01:00
 categories:

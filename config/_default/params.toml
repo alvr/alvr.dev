@@ -1,4 +1,4 @@
-version = "0.2.17"
+version = "0.2.18"
 description = "Random things by a random human."
 keywords = [ "blog", "portfolio", "personal", "programming", "android" ]
 defaultTheme = "dark"
@@ -59,6 +59,11 @@ mobileMode = "auto"
   name = ""
   typeit = false
 
+[breadcrumb]
+  enable = true
+  sticky = false
+  showHome = false
+
 [footer]
 enable = true
 custom = ""
@@ -71,8 +76,8 @@ gov = ""
 icp = ""
 license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   [footer.siteTime]
-  enable = true
-  animate = true
+  enable = false
+  animate = false
   icon = "fa-solid fa-heartbeat"
   pre = ""
   value = ""
@@ -133,9 +138,10 @@ Mastodon = "@alvr"
 RSS = true
 
 [page]
+authorAvatar = true
 hiddenFromHomePage = false
 hiddenFromSearch = false
-twemoji = false
+twemoji = true
 lightgallery = true
 ruby = true
 fraction = true
@@ -144,7 +150,6 @@ license = '<a rel="license external nofollow noopener noreferrer" href="https://
 linkToMarkdown = true
 rssFullText = false
 pageStyle = "narrow"
-gravatarForce = false
 autoBookmark = false
 wordCount = true
 readingTime = true
@@ -209,129 +214,10 @@ instantPage = true
   Facebook = true
   Linkedin = true
   Whatsapp = true
-  Pinterest = false
-  Tumblr = false
-  HackerNews = false
-  Reddit = false
-  VK = false
-  Buffer = false
-  Xing = false
-  Line = false
-  Instapaper = false
-  Pocket = false
-  Digg = false
-  Stumbleupon = false
-  Flipboard = false
   Weibo = false
-  Renren = false
-  Myspace = false
-  Blogger = false
-  Baidu = false
-  Odnoklassniki = false
-  Evernote = false
-  Skype = false
-  Trello = false
-  Mix = false
 
   [page.comment]
   enable = true
-    [page.comment.artalk]
-    enable = false
-    server = ""
-    site = ""
-    placeholder = ""
-    noComment = ""
-    sendBtn = ""
-    editorTravel = true
-    flatMode = "auto"
-    maxNesting = 3
-    lightgallery = false
-    locale = ""
-
-    [page.comment.disqus]
-    enable = false
-    shortname = ""
-
-    [page.comment.gitalk]
-    enable = false
-    owner = ""
-    repo = ""
-    clientId = ""
-    clientSecret = ""
-
-    [page.comment.valine]
-    enable = false
-    appId = ""
-    appKey = ""
-    placeholder = ""
-    avatar = "mp"
-    meta= ""
-    pageSize = 10
-    lang = ""
-    visitor = true
-    recordIP = true
-    highlight = true
-    enableQQ = false
-    serverURLs = ""
-    emoji = ""
-    commentCount = true
-
-    [page.comment.waline]
-    enable = false
-    serverURL = ""
-    pageview = false
-    emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
-    meta = ["nick", "mail", "link"]
-    requiredMeta = []
-    login = "enable"
-    wordLimit = 0
-    pageSize = 10
-    imageUploader = false
-    highlighter = false
-    comment = false
-    texRenderer = false
-    search = false
-    recaptchaV3Key = ""
-    reaction = false
-
-    [page.comment.facebook]
-    enable = false
-    width = "100%"
-    numPosts = 10
-    appId = ""
-    languageCode = ""
-
-    [page.comment.telegram]
-    enable = false
-    siteID = ""
-    limit = 5
-    height = ""
-    color = ""
-    colorful = true
-    dislikes = false
-    outlined = false
-
-    [page.comment.commento]
-    enable = false
-
-    [page.comment.utterances]
-    enable = false
-    repo = ""
-    issueTerm = "pathname"
-    label = ""
-    lightTheme = "github-light"
-    darkTheme = "github-dark"
-
-    [page.comment.twikoo]
-    enable = false
-    envId = ""
-    region = ""
-    path = ""
-    visitor = true
-    commentCount = true
-    lightgallery = false
-    katex = false
-
     [page.comment.giscus]
     enable = true
     repo = "alvr/me"
@@ -370,29 +256,17 @@ duration = -1
 [mermaid]
 themes = ["dark"]
 
-# FixIt 0.2.12 | NEW Watermark config
-# Detail config see https://github.com/Lruihao/watermark#readme
 [watermark]
 enable = false
-# watermark's text (HTML format is supported)
 content = ""
-# watermark's transparency
 opacity = 0.1
-# parent of watermark's container
 appendTo = ".wrapper>main"
-# watermark's width. unit: px
 width = 150
-# watermark's height. unit: px
 height = 20
-# row spacing of watermarks. unit: px
 rowSpacing = 60
-# col spacing of watermarks. unit: px
 colSpacing = 30
-# watermark's tangent angle. unit: deg
 rotate = 15
-# watermark's fontSize. unit: rem
 fontSize = 0.85
-# FixIt 0.2.13 | NEW watermark's fontFamily
 fontFamily = "inherit"
 
 [verification]
@@ -404,11 +278,8 @@ baidu = ""
 so = ""
 sogou = ""
 
-# FixIt 0.2.10 | NEW Site SEO config
 [seo]
-# image URL
 image = ""
-# thumbnail URL
 thumbnailUrl = ""
 
 [analytics]
@@ -463,22 +334,16 @@ enable = true
 color = "silver"
 theme = "minimal"
 
-# FixIt 0.2.17 | NEW Define custom file paths
-# Create your custom files in site directory `layouts/partials/custom` and uncomment needed files below
 [customFilePath]
 # aside = "custom/aside.html"
 # profile = "custom/profile.html"
 # footer = "custom/footer.html"
 
-# FixIt 0.2.15 | NEW Developer options
 [dev]
 enable = false
-# Check for updates
 c4u = false
-# Please do not expose to public!
 githubToken = ""
-# Mobile Devtools config
+
 [dev.mDevtools]
 enable = false
-# "vConsole", "eruda" supported
 type = "vConsole"
