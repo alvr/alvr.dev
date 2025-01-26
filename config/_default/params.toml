@@ -74,7 +74,7 @@ since = 2013
 wordCount = true
 gov = ""
 icp = ""
-license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a> <script defer src="https://stats.alvr.dev/script.js" data-website-id="b0b27133-4e06-4b30-8171-7db3b94a9720"></script>'
   [footer.siteTime]
   enable = false
   animate = false
