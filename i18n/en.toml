@@ -1,0 +1,3 @@
+[projects.totalStarCount]
+one = "1 star"
+other = "{{ .Count }} stars"

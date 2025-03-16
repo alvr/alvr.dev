@@ -9,4 +9,4 @@ comment:
   enable: false
 ---
 
-You can contact me through alvaro@alvr.dev and I will try to get back to you as soon as possible.
+You can contact me through {{< link "mailto:alvaro@alvr.dev" "email" >}} and I will try to get back to you as soon as possible.

@@ -1,0 +1,22 @@
+# -------------------------------------------------------------------------------------
+# Hugo Configuration
+# See: https://gohugo.io/getting-started/configuration/
+# -------------------------------------------------------------------------------------
+
+title = "dev, alvr"
+baseURL = "https://alvr.dev/"
+defaultContentLanguage = "en"
+hasCJKLanguage = false
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+relativeURLs = false
+buildDrafts = false
+summaryLength = 150
+# ignore some build errors
+ignoreLogs = [
+  "error-get-remote-image",
+  "error-get-remote-json",
+  "error-remote-getjson",
+  "error-missing-instagram-accesstoken"
+]

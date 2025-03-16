@@ -1,0 +1,106 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
+
+[[main]]
+  identifier = "posts"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Artículos"
+  url = "posts/"
+  title = "Artículos"
+  weight = 1
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-feather"
+    type = ""
+
+[[main]]
+  identifier = "categories"
+  parent = "posts"
+  pre = ""
+  post = ""
+  name = "Categorías"
+  url = "categories/"
+  title = "Categorías"
+  weight = 1
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-folder-tree"
+    type = ""
+
+[[main]]
+  identifier = "collections"
+  parent = "posts"
+  pre = ""
+  post = ""
+  name = "Colecciones"
+  url = "collections/"
+  title = "Colecciones"
+  weight = 2
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-layer-group"
+    type = ""
+
+[[main]]
+  identifier = "tags"
+  parent = "posts"
+  pre = ""
+  post = ""
+  name = "Etiquetas"
+  url = "tags/"
+  title = "Etiquetas"
+  weight = 3
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-tags"
+    type = ""
+
+[[main]]
+  identifier = "about"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Sobre mí"
+  url = "sobre-mi/"
+  title = "Sobre mí"
+  weight = 2
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-address-card"
+    type = ""
+
+[[main]]
+  identifier = "projects"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Proyectos"
+  url = "proyectos/"
+  title = "Proyectos"
+  weight = 3
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-code"
+    type = ""
+
+[[main]]
+  identifier = "contact"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Contactar"
+  url = "contactar/"
+  title = ""
+  weight = 4
+  [main.params]
+    icon = "fa-solid fa-inbox"

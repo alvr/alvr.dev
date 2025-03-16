@@ -11,6 +11,6 @@ comment:
 
 Hola, mi nombre es **Álvaro Salcedo García**, un ingeniero software que lleva programando desde los 16 años en mi tiempo libre y ahora se dedica a ello profesionalmente. Especializado en Android y Kotlin, aunque también me gusta Go y en general los lenguajes de tipado fuerte y estático.
 
-En mi [CV](/docs/cv.es.pdf) tengo listado mi experiencia profesional así como mis estudios y los proyectos más interesantes que he hecho.
+En mi [CV](/docs/cv.es.pdf) (también en [RxResume](https://rxresu.me/alvr/es)) tengo listado mi experiencia profesional así como mis estudios y los proyectos más interesantes que he hecho.
 
-Una lista más detallada de los proyectos está disponible [aquí](../proyectos/).
+Una lista más detallada de los proyectos está disponible [aquí]({{% relref "proyectos" %}}).
