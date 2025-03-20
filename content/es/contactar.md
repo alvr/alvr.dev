@@ -9,4 +9,4 @@ comment:
   enable: false
 ---
 
-Puedes contactar conmigo a través de alvaro@alvr.dev e intentaré responderte lo antes posible.
+Puedes contactar conmigo a través del {{< link "mailto:alvaro@alvr.dev" "correo electrónico" >}} e intentaré responderte lo antes posible.

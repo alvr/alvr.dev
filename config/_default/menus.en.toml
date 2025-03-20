@@ -1,0 +1,106 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
+
+[[main]]
+  identifier = "posts"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Posts"
+  url = "posts/"
+  title = "Posts"
+  weight = 1
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-feather"
+    type = ""
+
+[[main]]
+  identifier = "categories"
+  parent = "posts"
+  pre = ""
+  post = ""
+  name = "Categories"
+  url = "categories/"
+  title = "Categories"
+  weight = 1
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-folder-tree"
+    type = ""
+
+[[main]]
+  identifier = "collections"
+  parent = "posts"
+  pre = ""
+  post = ""
+  name = "Collections"
+  url = "collections/"
+  title = "Collections"
+  weight = 2
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-layer-group"
+    type = ""
+
+[[main]]
+  identifier = "tags"
+  parent = "posts"
+  pre = ""
+  post = ""
+  name = "Tags"
+  url = "tags/"
+  title = "Tags"
+  weight = 3
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-tags"
+    type = ""
+
+[[main]]
+  identifier = "about"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "About me"
+  url = "about-me/"
+  title = "About me"
+  weight = 2
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-address-card"
+    type = ""
+
+[[main]]
+  identifier = "projects"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Projects"
+  url = "projects/"
+  title = "Projects"
+  weight = 3
+  [main.params]
+    class = ""
+    draft = false
+    icon = "fa-solid fa-code"
+    type = ""
+
+[[main]]
+  identifier = "contact"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "Contact"
+  url = "contact/"
+  title = ""
+  weight = 4
+  [main.params]
+    icon = "fa-solid fa-inbox"

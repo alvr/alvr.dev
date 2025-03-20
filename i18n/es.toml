@@ -1,0 +1,10 @@
+[projects]
+errorGetGhRepo = "No se pudo obtener la información del repositorio desde la API de GitHub. ¡Por favor, verifica la conexión!"
+warningLayout = "La página {{ .RelPermalink }} está obteniendo repositorios a través de la red, por favor espera un momento..."
+warningAdapter = "El adaptador de contenido está obteniendo el README de GitHub a través de la red, por favor espera un momento..."
+source = "Fuente: [{{ .Name }}]({{ .Link }}){{ with .Website }}<br>Sitio web: <{{ . }}>{{ end }}"
+poweredBy = "Esta página está impulsada por <a href=\"https://github.com/hugo-fixit/component-projects\">Component Projects</a>."
+
+[projects.totalStarCount]
+one = "1 estrella"
+other = "{{ .Count }} estrellas"

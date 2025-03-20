@@ -1,0 +1,27 @@
+- title: Proyectos
+  description: Proyectos que mantengo en la actualidad
+  contentAdapters: true
+  params:
+    hiddenFromHomePage: false
+  collections:
+    - developed
+  totalStars: true
+  orderby: star
+  order: desc
+  repos:
+    - alvr/katana
+    - alvr/alpine-android
+
+- title: Trabajo fin de Grado
+  description: Proyectos relacionados con mi Trabajo fin de Grado
+  contentAdapters: true
+  params:
+    hiddenFromHomePage: false
+  collections:
+    - developed
+  totalStars: true
+  orderby: name
+  order: desc
+  repos:
+    - alvr/pressurizer-client
+    - alvr/pressurizer-server

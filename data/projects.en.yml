@@ -1,0 +1,27 @@
+- title: Projects
+  description: Projects I maintain nowadays
+  contentAdapters: true
+  params:
+    hiddenFromHomePage: false
+  collections:
+    - developed
+  totalStars: true
+  orderby: star
+  order: desc
+  repos:
+    - alvr/katana
+    - alvr/alpine-android
+
+- title: Bachelor's Final Project
+  description: Projects related to my Bachelor's Final Project
+  contentAdapters: true
+  params:
+    hiddenFromHomePage: false
+  collections:
+    - developed
+  totalStars: true
+  orderby: name
+  order: desc
+  repos:
+    - alvr/pressurizer-client
+    - alvr/pressurizer-server

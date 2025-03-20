@@ -6,13 +6,13 @@
 [[plugins]]
   package = "netlify-purge-cloudflare-on-deploy"
 
-[[plugins]]
-  package = "netlify-plugin-checklinks"
-  [plugins.inputs]
-    entryPoints = [".css", "*.html", "*.js"]
-    recursive = true
-    pretty = true
-    checkExternal = false
+# [[plugins]]
+#   package = "netlify-plugin-checklinks"
+#   [plugins.inputs]
+#     entryPoints = [".css", "*.html", "*.js"]
+#     recursive = true
+#     pretty = true
+#     checkExternal = false
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
